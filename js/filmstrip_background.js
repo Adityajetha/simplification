@@ -20,7 +20,7 @@ var numSol;
 
 
 
-function plotFilmLines(solutionPdpData, simp_ind,numSol, container, currentSolutionMinY,currentSolutionMaxY,shareY, grids, labels, featureOrder, ignoreZeros) {
+function plotFilmLines(solutionPdpData, simp_ind, numSol, container, currentSolutionMinY,currentSolutionMaxY,shareY, grids, labels, featureOrder, ignoreZeros) {
 
     //console.log("featureOrder",featureOrder);
 
@@ -53,6 +53,9 @@ function plotFilmLines(solutionPdpData, simp_ind,numSol, container, currentSolut
     if(end==numSol){
         start=Math.max(0,end-11);
     }
+    solutionPdpData = solutionPdpData.filter(function (d) {
+        return parseInt(d["100*p"]) >= start && parseInt(d["100*p"]) < end
+    });
     for(var i=start;i<end;i++) {
 
 
@@ -82,16 +85,16 @@ function plotFilmLines(solutionPdpData, simp_ind,numSol, container, currentSolut
         // outcomes =outcomes.slice(0,parseInt(outcomes.length/4));
 
         if (false && shareY === "Linear") {
-            plotFilmLineGraph(values, outcomes, i,count, container,valueLabel, outcomeLabel, grids, true, currentSolutionMinYLinear, currentSolutionMaxYLinear);
+            plotFilmLineGraph(values, outcomes, i,count, simp_ind,container,valueLabel, outcomeLabel, grids, true, currentSolutionMinYLinear, currentSolutionMaxYLinear);
         } else if (false && shareY == "NonLinear") {
-            plotFilmLineGraph(values, outcomes, i,count, container, valueLabel, outcomeLabel, grids, true, currentSolutionMinYNonLinear, currentSolutionMaxYNonLinear);
+            plotFilmLineGraph(values, outcomes, i,count, simp_ind,container, valueLabel, outcomeLabel, grids, true, currentSolutionMinYNonLinear, currentSolutionMaxYNonLinear);
         } else if (true||shareY === "All") {
-            plotFilmLineGraph(values, outcomes, i,count, container, valueLabel, outcomeLabel, grids, true, currentSolutionMinY, currentSolutionMaxY);
+            plotFilmLineGraph(values, outcomes, i,count, simp_ind,container, valueLabel, outcomeLabel, grids, true, currentSolutionMinY, currentSolutionMaxY);
         } else {
             //console.log("Length outcomes old",outcomesOld.length)
             var minY = Math.round(Math.min.apply(null, outcomesOld) - 0.5);
             var maxY = Math.round(Math.max.apply(null, outcomesOld) + 0.5);
-            plotFilmLineGraph(values, outcomes, i,count,container, valueLabel, outcomeLabel, grids, true, minY, maxY);
+            plotFilmLineGraph(values, outcomes, i,count,simp_ind,container, valueLabel, outcomeLabel, grids, true, minY, maxY);
         }
         count++;
 
@@ -100,7 +103,7 @@ function plotFilmLines(solutionPdpData, simp_ind,numSol, container, currentSolut
 }
 
 
-function plotFilmLineGraph(values, outcomes, simplify_index,simp_ind,container, valueLabel,outcomeLabel, grids, shareY, minY, maxY) {
+function plotFilmLineGraph(values, outcomes, simplify_index,ind,simp_ind,container, valueLabel,outcomeLabel, grids, shareY, minY, maxY) {
 
 
     //Create div in container
@@ -108,12 +111,16 @@ function plotFilmLineGraph(values, outcomes, simplify_index,simp_ind,container, 
     //console.log(container);
     lineGraphDiv = document.createElement("div");
     lineGraphDiv.style.position='relative';
-    lineGraphDiv.style.left=simp_ind*150 +'px';
-    lineGraphDiv.style.top=-simp_ind*150 +'px';
+    lineGraphDiv.style.left=ind*150 +'px';
+    lineGraphDiv.style.top=-ind*150 +'px';
     //console.log(lineGraphDiv.style.left);
     lineGraph = document.createElement("canvas");
     lineGraph.height = 150;
     lineGraph.width = 150;
+    console.log(simplify_index,simp_ind);
+    if(simp_ind==simplify_index){
+        lineGraph.style.background="#DDD";
+    }
     lineGraph.id = "filmstrip_" + valueLabel+"_"+simplify_index;
     lineGraphDiv.id = valueLabel+simplify_index;
     lineGraphDiv.appendChild(lineGraph);
