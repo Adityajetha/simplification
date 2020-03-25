@@ -2,7 +2,6 @@
 var pdpData;
 var textData;
 var remainingDataFiles = 1;
-var dataset = "boston";
 d3.csv("data/enumerated_p_cogam.csv", onLoadPdpData);
 var iv1;
 var iv2;
@@ -15,12 +14,45 @@ var filmstrip;
 var scrubber;
 var prev_ind=0;
 var draw_track = true;
+var isplay=false;
 
 function onLoadPdpData(data) {
     pdpData = data;
     remainingDataFiles = remainingDataFiles - 1;
     onReadyData();
 }
+
+function play_helper(){
+
+    filmstrip.value(scrubVal);
+    filmstrip.track.scrollLeft = 150 * iv2 * scrubVal;
+    //console.log(scrubVal); // the value at time of invocation
+    var ind = getindex(scrubVal, iv2);
+    if (prev_ind != ind) {
+        prev_ind = ind;
+        draw_track = false;
+        controlInputsChangeHandler();
+        draw_track = true;
+    }
+}
+
+function pause(){
+    isplay=false;
+}
+
+function play(){
+    isplay=true;
+    play_cont();
+}
+function play_cont(){
+    if(isplay && scrubVal<1) {
+        console.log(scrubVal);
+        scrubVal+=0.01;
+        play_helper();
+        setTimeout(() => { play_cont() }, 50);
+    }
+}
+
 
 function onReadyData() {
 
