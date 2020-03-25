@@ -1,0 +1,14 @@
+feature,feature_friendly,feature_description
+crim,Crime Rate,per capita crime rate by town
+zn,Residential Area,"proportion of residential land zoned for lots over 25,000 sq.ft."
+indus,Business Area,proportion of non-retail business acres per town.
+nox,Nitrix Oxide Conc.,nitric oxides concentration (parts per 10 million)
+rm,Rooms  per Dwelling,average number of rooms per dwelling
+age,Units built before 1940,proportion of owner-occupied units built prior to 1940
+dis,Distance to Employment Centre,weighted distances to five Boston employment centres
+rad,Highway Accesibility,index of accessibility to radial highways
+tax,Property Tax Rate,"full-value property-tax rate per $10,000"
+ptratio,Pupil Teach Ratio,pupil-teacher ratio by town
+black,Blacks,1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
+lstat,Lower Status,lower status of the population
+intercept,intercept,intercept

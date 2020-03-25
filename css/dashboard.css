@@ -1,0 +1,130 @@
+
+.preload {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.dashboard {
+    margin: 5px;
+    display: none;
+}
+
+.conditions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 0px;
+    passing: 0px;
+
+}
+
+
+
+.dashboard > .linegraphs-container {
+    display: grid;
+    /*grid-template-columns: auto auto auto auto auto auto;*/
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-column-gap: 10px;
+    passing: 5px;
+    grid-row-gap: 25px;
+    justify-items: center;
+}
+
+.dashboard > .lollipopgraphs-container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 5px;
+    passing: 5px;
+    justify-items: center;
+}
+
+/*Lollipop stuff*/
+
+svg {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    display: block;
+    margin: auto;
+    font-size: 12pt;
+    overflow: visible;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #636363;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    fill: #5a5b5e;
+    /*font-size:11pt;*/
+}
+
+.axis .tick line {
+    stroke: rgba(0, 0, 0, 0.1);
+}
+
+.area {
+    stroke-width: 1;
+}
+
+.area.outer,
+.legend .outer {
+    fill: rgba(230, 230, 255, 0.8);
+    stroke: rgba(216, 216, 255, 0.8);
+}
+
+.area.inner,
+.legend .inner {
+    fill: rgba(127, 127, 255, 0.8);
+    stroke: rgba(96, 96, 255, 0.8);
+}
+
+.median-line,
+.legend .median-line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 3;
+}
+
+.legend .legend-bg {
+    fill: rgba(0, 0, 0, 0.5);
+    stroke: rgba(0, 0, 0, 0.5);
+}
+
+.marker.client .marker-bg,
+.marker.client path {
+    fill: rgba(255, 127, 0, 0.8);
+    stroke: rgba(255, 127, 0, 0.8);
+    stroke-width: 3;
+}
+
+.marker.server .marker-bg,
+.marker.server path {
+    fill: rgba(0, 153, 51, 0.8);
+    stroke: rgba(0, 153, 51, 0.8);
+    stroke-width: 3;
+}
+
+.marker path {
+    fill: none;
+}
+
+.legend text,
+.marker text {
+    fill: #636363;
+    font-size: 12pt;
+    /*font-weight:bold;*/
+}
+
+/*.marker text {*/
+/*  text-anchor: left;*/
+/*}*/
+
+.tick line {
+    visibility: hidden;
+}
+

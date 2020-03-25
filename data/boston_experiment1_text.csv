@@ -1,0 +1,2049 @@
+Feature Name,Text,Impact,Slope,pcc,x_min,x_max,Detailed,Slope/Impact,Threshold,Include Mean,ShareY
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price changes with slope 0.07.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,None,Slope,None,No,Local
+age,"From 13.23 to 37.44 price changes with slope -0.07.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,None,Slope,None,No,Local
+age,"From 37.75 to 50.96 price changes with slope 0.07.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,None,Slope,None,No,Local
+age,"From 51.27 to 75.16 price changes with slope -0.08.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,None,Slope,None,No,Local
+age,"From 75.48 to 88.37 price changes with slope 0.11.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,None,Slope,None,No,Local
+age,"From 88.68 to 100.00 price changes with slope -0.18.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,None,Slope,None,No,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price changes with slope -3.42.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Slope,None,No,Local
+dis,"From 7.06 to 9.14 price changes with slope 1.26.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,None,Slope,None,No,Local
+dis,"From 9.17 to 10.71 price changes with slope -2.43.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,None,Slope,None,No,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price changes with slope -0.03.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Slope,None,No,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price changes with slope -0.69.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Slope,None,No,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price changes with slope 0.27.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,None,Slope,None,No,Local
+nox,"From 46.79 to 69.71 price changes with slope -0.34.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,None,Slope,None,No,Local
+nox,"From 69.87 to 77.35 price changes with slope 0.26.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,None,Slope,None,No,Local
+nox,"From 77.51 to 87.10 price changes with slope -0.72.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,None,Slope,None,No,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price changes with slope -1.96.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Slope,None,No,Local
+ptratio,"From 16.71 to 21.20 price changes with slope -0.30.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Slope,None,No,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price changes with slope 3.11.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Slope,None,No,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price changes with slope 0.07.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,None,Slope,None,Yes,Local
+age,"From 13.23 to 37.44 price changes with slope -0.07.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,None,Slope,None,Yes,Local
+age,"From 37.75 to 50.96 price changes with slope 0.07.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,None,Slope,None,Yes,Local
+age,"From 51.27 to 75.16 price changes with slope -0.08.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,None,Slope,None,Yes,Local
+age,"From 75.48 to 88.37 price changes with slope 0.11.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,None,Slope,None,Yes,Local
+age,"From 88.68 to 100.00 price changes with slope -0.18.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,None,Slope,None,Yes,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price changes with slope -3.42.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Slope,None,Yes,Local
+dis,"From 7.06 to 9.14 price changes with slope 1.26.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,None,Slope,None,Yes,Local
+dis,"From 9.17 to 10.71 price changes with slope -2.43.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,None,Slope,None,Yes,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price changes with slope -0.03.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Slope,None,Yes,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price changes with slope -0.69.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Slope,None,Yes,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price changes with slope 0.27.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,None,Slope,None,Yes,Local
+nox,"From 46.79 to 69.71 price changes with slope -0.34.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,None,Slope,None,Yes,Local
+nox,"From 69.87 to 77.35 price changes with slope 0.26.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,None,Slope,None,Yes,Local
+nox,"From 77.51 to 87.10 price changes with slope -0.72.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,None,Slope,None,Yes,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price changes with slope -1.96.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Slope,None,Yes,Local
+ptratio,"From 16.71 to 21.20 price changes with slope -0.30.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Slope,None,Yes,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price changes with slope 3.11.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Slope,None,Yes,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases rapidly and is 0.07 times 6.92.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,None,Slope,Threshold,No,Local
+age,"From 13.23 to 37.44 price decreases rapidly and is -0.07 times 24.21.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,None,Slope,Threshold,No,Local
+age,"From 37.75 to 50.96 price increases rapidly and is 0.07 times 13.20.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,None,Slope,Threshold,No,Local
+age,"From 51.27 to 75.16 price decreases rapidly and is -0.08 times 23.89.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,None,Slope,Threshold,No,Local
+age,"From 75.48 to 88.37 price increases rapidly and is 0.11 times 12.89.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,None,Slope,Threshold,No,Local
+age,"From 88.68 to 100.00 price decreases rapidly and is -0.18 times 11.32.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,None,Slope,Threshold,No,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases rapidly and is -3.42 times 5.90.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Slope,Threshold,No,Local
+dis,"From 7.06 to 9.14 price increases moderately and is 1.26 times 2.08.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,None,Slope,Threshold,No,Local
+dis,"From 9.17 to 10.71 price decreases rapidly and is -2.43 times 1.54.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,None,Slope,Threshold,No,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases moderately and is -0.03 times 27.00.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Slope,Threshold,No,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately and is -0.69 times 35.25.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Slope,Threshold,No,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases rapidly and is 0.27 times 8.13.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,None,Slope,Threshold,No,Local
+nox,"From 46.79 to 69.71 price decreases rapidly and is -0.34 times 22.92.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,None,Slope,Threshold,No,Local
+nox,"From 69.87 to 77.35 price increases moderately and is 0.26 times 7.48.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,None,Slope,Threshold,No,Local
+nox,"From 77.51 to 87.10 price decreases rapidly and is -0.72 times 9.59.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,None,Slope,Threshold,No,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases rapidly and is -1.96 times 4.08.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Slope,Threshold,No,Local
+ptratio,"From 16.71 to 21.20 price decreases moderately and is -0.30 times 4.49.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Slope,Threshold,No,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately and is 3.11 times 4.84.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Slope,Threshold,No,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases rapidly from 1.33 to 1.82 at mean 1.66.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,None,Impact,Threshold,Yes,Local
+age,"From 13.23 to 37.44 price decreases rapidly from 1.82 to 0.19 at mean 0.99.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,None,Impact,Threshold,Yes,Local
+age,"From 37.75 to 50.96 price increases rapidly from 0.19 to 1.08 at mean 0.64.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,None,Impact,Threshold,Yes,Local
+age,"From 51.27 to 75.16 price decreases rapidly from 1.08 to -0.90 at mean 0.01.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,None,Impact,Threshold,Yes,Local
+age,"From 75.48 to 88.37 price increases rapidly from -0.90 to 0.47 at mean -0.19.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,None,Impact,Threshold,Yes,Local
+age,"From 88.68 to 100.00 price decreases rapidly from 0.46 to -1.54 at mean -0.44.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,None,Impact,Threshold,Yes,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases rapidly from 16.27 to -3.91 at mean 0.99.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Impact,Threshold,Yes,Local
+dis,"From 7.06 to 9.14 price increases moderately from -3.91 to -1.29 at mean -2.66.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,None,Impact,Threshold,Yes,Local
+dis,"From 9.17 to 10.71 price decreases rapidly from -1.29 to -5.03 at mean -2.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,None,Impact,Threshold,Yes,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases moderately from -0.02 to -0.70 at mean -0.36.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Impact,Threshold,Yes,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately from -1.20 to -25.57 at mean -13.38.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Impact,Threshold,Yes,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases rapidly from 3.36 to 5.54 at mean 4.84.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,None,Impact,Threshold,Yes,Local
+nox,"From 46.79 to 69.71 price decreases rapidly from 5.54 to -2.25 at mean 1.32.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,None,Impact,Threshold,Yes,Local
+nox,"From 69.87 to 77.35 price increases moderately from -2.25 to -0.31 at mean -1.27.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,None,Impact,Threshold,Yes,Local
+nox,"From 77.51 to 87.10 price decreases rapidly from -0.32 to -7.25 at mean -2.97.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,None,Impact,Threshold,Yes,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases rapidly from 5.90 to -2.11 at mean 2.76.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Impact,Threshold,Yes,Local
+ptratio,"From 16.71 to 21.20 price decreases moderately from -2.10 to -3.45 at mean -2.09.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Impact,Threshold,Yes,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately from 11.06 to 26.09 at mean 18.57.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Impact,Threshold,Yes,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases by 0.49.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,None,Impact,None,No,Local
+age,"From 13.23 to 37.44 price decreases by 1.63.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,None,Impact,None,No,Local
+age,"From 37.75 to 50.96 price increases by 0.89.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,None,Impact,None,No,Local
+age,"From 51.27 to 75.16 price decreases by 1.98.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,None,Impact,None,No,Local
+age,"From 75.48 to 88.37 price increases by 1.37.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,None,Impact,None,No,Local
+age,"From 88.68 to 100.00 price decreases by 2.00.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,None,Impact,None,No,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases by 20.18.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Impact,None,No,Local
+dis,"From 7.06 to 9.14 price increases by 2.62.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,None,Impact,None,No,Local
+dis,"From 9.17 to 10.71 price decreases by 3.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,None,Impact,None,No,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases by 0.69.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Impact,None,No,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases by 24.37.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Impact,None,No,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases by 2.18.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,None,Impact,None,No,Local
+nox,"From 46.79 to 69.71 price decreases by 7.79.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,None,Impact,None,No,Local
+nox,"From 69.87 to 77.35 price increases by 1.94.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,None,Impact,None,No,Local
+nox,"From 77.51 to 87.10 price decreases by 6.93.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,None,Impact,None,No,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases by 8.01.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Impact,None,No,Local
+ptratio,"From 16.71 to 21.20 price decreases by 1.35.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Impact,None,No,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases by 15.02.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Impact,None,No,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases by 0.49.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,None,Impact,None,Yes,Local
+age,"From 13.23 to 37.44 price decreases by 1.63.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,None,Impact,None,Yes,Local
+age,"From 37.75 to 50.96 price increases by 0.89.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,None,Impact,None,Yes,Local
+age,"From 51.27 to 75.16 price decreases by 1.98.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,None,Impact,None,Yes,Local
+age,"From 75.48 to 88.37 price increases by 1.37.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,None,Impact,None,Yes,Local
+age,"From 88.68 to 100.00 price decreases by 2.00.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,None,Impact,None,Yes,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases by 20.18.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Impact,None,Yes,Local
+dis,"From 7.06 to 9.14 price increases by 2.62.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,None,Impact,None,Yes,Local
+dis,"From 9.17 to 10.71 price decreases by 3.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,None,Impact,None,Yes,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases by 0.69.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Impact,None,Yes,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases by 24.37.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Impact,None,Yes,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases by 2.18.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,None,Impact,None,Yes,Local
+nox,"From 46.79 to 69.71 price decreases by 7.79.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,None,Impact,None,Yes,Local
+nox,"From 69.87 to 77.35 price increases by 1.94.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,None,Impact,None,Yes,Local
+nox,"From 77.51 to 87.10 price decreases by 6.93.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,None,Impact,None,Yes,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases by 8.01.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Impact,None,Yes,Local
+ptratio,"From 16.71 to 21.20 price decreases by 1.35.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Impact,None,Yes,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases by 15.02.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Impact,None,Yes,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases rapidly.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,None,Impact,Threshold,No,Local
+age,"From 13.23 to 37.44 price decreases rapidly.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,None,Impact,Threshold,No,Local
+age,"From 37.75 to 50.96 price increases rapidly.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,None,Impact,Threshold,No,Local
+age,"From 51.27 to 75.16 price decreases rapidly.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,None,Impact,Threshold,No,Local
+age,"From 75.48 to 88.37 price increases rapidly.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,None,Impact,Threshold,No,Local
+age,"From 88.68 to 100.00 price decreases rapidly.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,None,Impact,Threshold,No,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases rapidly.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Impact,Threshold,No,Local
+dis,"From 7.06 to 9.14 price increases moderately.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,None,Impact,Threshold,No,Local
+dis,"From 9.17 to 10.71 price decreases rapidly.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,None,Impact,Threshold,No,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases moderately.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Impact,Threshold,No,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Impact,Threshold,No,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases rapidly.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,None,Impact,Threshold,No,Local
+nox,"From 46.79 to 69.71 price decreases rapidly.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,None,Impact,Threshold,No,Local
+nox,"From 69.87 to 77.35 price increases moderately.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,None,Impact,Threshold,No,Local
+nox,"From 77.51 to 87.10 price decreases rapidly.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,None,Impact,Threshold,No,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases rapidly.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Impact,Threshold,No,Local
+ptratio,"From 16.71 to 21.20 price decreases moderately.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Impact,Threshold,No,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Impact,Threshold,No,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases rapidly from 1.33 to 1.82 at mean 1.66.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,None,Impact,Threshold,Yes,Local
+age,"From 13.23 to 37.44 price decreases rapidly from 1.82 to 0.19 at mean 0.99.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,None,Impact,Threshold,Yes,Local
+age,"From 37.75 to 50.96 price increases rapidly from 0.19 to 1.08 at mean 0.64.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,None,Impact,Threshold,Yes,Local
+age,"From 51.27 to 75.16 price decreases rapidly from 1.08 to -0.90 at mean 0.01.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,None,Impact,Threshold,Yes,Local
+age,"From 75.48 to 88.37 price increases rapidly from -0.90 to 0.47 at mean -0.19.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,None,Impact,Threshold,Yes,Local
+age,"From 88.68 to 100.00 price decreases rapidly from 0.46 to -1.54 at mean -0.44.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,None,Impact,Threshold,Yes,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases rapidly from 16.27 to -3.91 at mean 0.99.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Impact,Threshold,Yes,Local
+dis,"From 7.06 to 9.14 price increases moderately from -3.91 to -1.29 at mean -2.66.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,None,Impact,Threshold,Yes,Local
+dis,"From 9.17 to 10.71 price decreases rapidly from -1.29 to -5.03 at mean -2.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,None,Impact,Threshold,Yes,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases moderately from -0.02 to -0.70 at mean -0.36.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Impact,Threshold,Yes,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately from -1.20 to -25.57 at mean -13.38.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Impact,Threshold,Yes,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases rapidly from 3.36 to 5.54 at mean 4.84.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,None,Impact,Threshold,Yes,Local
+nox,"From 46.79 to 69.71 price decreases rapidly from 5.54 to -2.25 at mean 1.32.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,None,Impact,Threshold,Yes,Local
+nox,"From 69.87 to 77.35 price increases moderately from -2.25 to -0.31 at mean -1.27.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,None,Impact,Threshold,Yes,Local
+nox,"From 77.51 to 87.10 price decreases rapidly from -0.32 to -7.25 at mean -2.97.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,None,Impact,Threshold,Yes,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases rapidly from 5.90 to -2.11 at mean 2.76.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Impact,Threshold,Yes,Local
+ptratio,"From 16.71 to 21.20 price decreases moderately from -2.10 to -3.45 at mean -2.09.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Impact,Threshold,Yes,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately from 11.06 to 26.09 at mean 18.57.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Impact,Threshold,Yes,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price changes with slope 0.07.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Slope,None,No,Local
+age,"From 13.23 to 37.44 price changes with slope -0.07.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Slope,None,No,Local
+age,"From 37.75 to 50.96 price changes with slope 0.07.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Slope,None,No,Local
+age,"From 51.27 to 75.16 price changes with slope -0.08.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Slope,None,No,Local
+age,"From 75.48 to 88.37 price changes with slope 0.11.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Slope,None,No,Local
+age,"From 88.68 to 100.00 price changes with slope -0.18.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Slope,None,No,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price changes with slope -3.42.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Slope,None,No,Local
+dis,"From 7.06 to 9.14 price changes with slope 1.26.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Slope,None,No,Local
+dis,"From 9.17 to 10.71 price changes with slope -2.43.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Slope,None,No,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price changes with slope -0.03.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Slope,None,No,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price changes with slope -0.69.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Slope,None,No,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price changes with slope 0.27.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Slope,None,No,Local
+nox,"From 46.79 to 69.71 price changes with slope -0.34.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Slope,None,No,Local
+nox,"From 69.87 to 77.35 price changes with slope 0.26.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Slope,None,No,Local
+nox,"From 77.51 to 87.10 price changes with slope -0.72.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Slope,None,No,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price changes with slope 0.04.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Slope,None,No,Local
+ptratio,"From 12.86 to 16.68 price changes with slope -2.10.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Slope,None,No,Local
+ptratio,"From 16.71 to 17.43 price changes with slope 0.65.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Slope,None,No,Local
+ptratio,"From 17.46 to 18.24 price changes with slope -0.50.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Slope,None,No,Local
+ptratio,"From 18.27 to 19.10 price changes with slope 0.45.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Slope,None,No,Local
+ptratio,"From 19.13 to 21.20 price changes with slope -0.87.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Slope,None,No,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price changes with slope 3.11.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Slope,None,No,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price changes with slope 0.07.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Slope,None,Yes,Local
+age,"From 13.23 to 37.44 price changes with slope -0.07.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Slope,None,Yes,Local
+age,"From 37.75 to 50.96 price changes with slope 0.07.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Slope,None,Yes,Local
+age,"From 51.27 to 75.16 price changes with slope -0.08.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Slope,None,Yes,Local
+age,"From 75.48 to 88.37 price changes with slope 0.11.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Slope,None,Yes,Local
+age,"From 88.68 to 100.00 price changes with slope -0.18.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Slope,None,Yes,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price changes with slope -3.42.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Slope,None,Yes,Local
+dis,"From 7.06 to 9.14 price changes with slope 1.26.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Slope,None,Yes,Local
+dis,"From 9.17 to 10.71 price changes with slope -2.43.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Slope,None,Yes,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price changes with slope -0.03.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Slope,None,Yes,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price changes with slope -0.69.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Slope,None,Yes,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price changes with slope 0.27.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Slope,None,Yes,Local
+nox,"From 46.79 to 69.71 price changes with slope -0.34.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Slope,None,Yes,Local
+nox,"From 69.87 to 77.35 price changes with slope 0.26.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Slope,None,Yes,Local
+nox,"From 77.51 to 87.10 price changes with slope -0.72.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Slope,None,Yes,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price changes with slope 0.04.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Slope,None,Yes,Local
+ptratio,"From 12.86 to 16.68 price changes with slope -2.10.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Slope,None,Yes,Local
+ptratio,"From 16.71 to 17.43 price changes with slope 0.65.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Slope,None,Yes,Local
+ptratio,"From 17.46 to 18.24 price changes with slope -0.50.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Slope,None,Yes,Local
+ptratio,"From 18.27 to 19.10 price changes with slope 0.45.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Slope,None,Yes,Local
+ptratio,"From 19.13 to 21.20 price changes with slope -0.87.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Slope,None,Yes,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price changes with slope 3.11.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Slope,None,Yes,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases rapidly and is 0.07 times 6.92.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Slope,Threshold,No,Local
+age,"From 13.23 to 37.44 price decreases rapidly and is -0.07 times 24.21.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Slope,Threshold,No,Local
+age,"From 37.75 to 50.96 price increases rapidly and is 0.07 times 13.20.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Slope,Threshold,No,Local
+age,"From 51.27 to 75.16 price decreases rapidly and is -0.08 times 23.89.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Slope,Threshold,No,Local
+age,"From 75.48 to 88.37 price increases rapidly and is 0.11 times 12.89.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Slope,Threshold,No,Local
+age,"From 88.68 to 100.00 price decreases rapidly and is -0.18 times 11.32.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Slope,Threshold,No,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases rapidly and is -3.42 times 5.90.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Slope,Threshold,No,Local
+dis,"From 7.06 to 9.14 price increases moderately and is 1.26 times 2.08.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Slope,Threshold,No,Local
+dis,"From 9.17 to 10.71 price decreases rapidly and is -2.43 times 1.54.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Slope,Threshold,No,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases moderately and is -0.03 times 27.00.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Slope,Threshold,No,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately and is -0.69 times 35.25.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Slope,Threshold,No,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases rapidly and is 0.27 times 8.13.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Slope,Threshold,No,Local
+nox,"From 46.79 to 69.71 price decreases rapidly and is -0.34 times 22.92.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Slope,Threshold,No,Local
+nox,"From 69.87 to 77.35 price increases moderately and is 0.26 times 7.48.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Slope,Threshold,No,Local
+nox,"From 77.51 to 87.10 price decreases rapidly and is -0.72 times 9.59.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Slope,Threshold,No,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price remains virtually constant.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Slope,Threshold,No,Local
+ptratio,"From 12.86 to 16.68 price decreases rapidly and is -2.10 times 3.83.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Slope,Threshold,No,Local
+ptratio,"From 16.71 to 17.43 price increases moderately and is 0.65 times 0.72.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Slope,Threshold,No,Local
+ptratio,"From 17.46 to 18.24 price decreases moderately and is -0.50 times 0.78.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Slope,Threshold,No,Local
+ptratio,"From 18.27 to 19.10 price increases moderately and is 0.45 times 0.83.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Slope,Threshold,No,Local
+ptratio,"From 19.13 to 21.20 price decreases moderately and is -0.87 times 2.07.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Slope,Threshold,No,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately and is 3.11 times 4.84.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Slope,Threshold,No,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases rapidly from 1.33 to 1.82 at mean 1.66.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Impact,Threshold,Yes,Local
+age,"From 13.23 to 37.44 price decreases rapidly from 1.82 to 0.19 at mean 0.99.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Impact,Threshold,Yes,Local
+age,"From 37.75 to 50.96 price increases rapidly from 0.19 to 1.08 at mean 0.64.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Impact,Threshold,Yes,Local
+age,"From 51.27 to 75.16 price decreases rapidly from 1.08 to -0.90 at mean 0.01.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Impact,Threshold,Yes,Local
+age,"From 75.48 to 88.37 price increases rapidly from -0.90 to 0.47 at mean -0.19.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Impact,Threshold,Yes,Local
+age,"From 88.68 to 100.00 price decreases rapidly from 0.46 to -1.54 at mean -0.44.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Impact,Threshold,Yes,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases rapidly from 16.27 to -3.91 at mean 0.99.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Impact,Threshold,Yes,Local
+dis,"From 7.06 to 9.14 price increases moderately from -3.91 to -1.29 at mean -2.66.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Impact,Threshold,Yes,Local
+dis,"From 9.17 to 10.71 price decreases rapidly from -1.29 to -5.03 at mean -2.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Impact,Threshold,Yes,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases moderately from -0.02 to -0.70 at mean -0.36.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Impact,Threshold,Yes,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately from -1.20 to -25.57 at mean -13.38.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Impact,Threshold,Yes,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases rapidly from 3.36 to 5.54 at mean 4.84.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Impact,Threshold,Yes,Local
+nox,"From 46.79 to 69.71 price decreases rapidly from 5.54 to -2.25 at mean 1.32.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Impact,Threshold,Yes,Local
+nox,"From 69.87 to 77.35 price increases moderately from -2.25 to -0.31 at mean -1.27.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Impact,Threshold,Yes,Local
+nox,"From 77.51 to 87.10 price decreases rapidly from -0.32 to -7.25 at mean -2.97.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Impact,Threshold,Yes,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price remains virtually constant at 5.91.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Impact,Threshold,Yes,Local
+ptratio,"From 12.86 to 16.68 price decreases rapidly from 5.91 to -2.11 at mean 2.57.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Impact,Threshold,Yes,Local
+ptratio,"From 16.71 to 17.43 price increases moderately from -2.10 to -1.63 at mean -1.85.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Impact,Threshold,Yes,Local
+ptratio,"From 17.46 to 18.24 price decreases moderately from -1.63 to -2.02 at mean -1.85.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Impact,Threshold,Yes,Local
+ptratio,"From 18.27 to 19.10 price increases moderately from -2.02 to -1.65 at mean -1.82.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Impact,Threshold,Yes,Local
+ptratio,"From 19.13 to 21.20 price decreases moderately from -1.65 to -3.45 at mean -2.38.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Impact,Threshold,Yes,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately from 11.06 to 26.09 at mean 18.57.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Impact,Threshold,Yes,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases by 0.49.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Impact,None,No,Local
+age,"From 13.23 to 37.44 price decreases by 1.63.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Impact,None,No,Local
+age,"From 37.75 to 50.96 price increases by 0.89.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Impact,None,No,Local
+age,"From 51.27 to 75.16 price decreases by 1.98.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Impact,None,No,Local
+age,"From 75.48 to 88.37 price increases by 1.37.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Impact,None,No,Local
+age,"From 88.68 to 100.00 price decreases by 2.00.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Impact,None,No,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases by 20.18.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Impact,None,No,Local
+dis,"From 7.06 to 9.14 price increases by 2.62.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Impact,None,No,Local
+dis,"From 9.17 to 10.71 price decreases by 3.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Impact,None,No,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases by 0.69.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Impact,None,No,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases by 24.37.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Impact,None,No,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases by 2.18.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Impact,None,No,Local
+nox,"From 46.79 to 69.71 price decreases by 7.79.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Impact,None,No,Local
+nox,"From 69.87 to 77.35 price increases by 1.94.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Impact,None,No,Local
+nox,"From 77.51 to 87.10 price decreases by 6.93.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Impact,None,No,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price increases by 0.01.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Impact,None,No,Local
+ptratio,"From 12.86 to 16.68 price decreases by 8.02.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Impact,None,No,Local
+ptratio,"From 16.71 to 17.43 price increases by 0.47.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Impact,None,No,Local
+ptratio,"From 17.46 to 18.24 price decreases by 0.39.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Impact,None,No,Local
+ptratio,"From 18.27 to 19.10 price increases by 0.37.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Impact,None,No,Local
+ptratio,"From 19.13 to 21.20 price decreases by 1.80.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Impact,None,No,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases by 15.02.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Impact,None,No,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases by 0.49.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Impact,None,Yes,Local
+age,"From 13.23 to 37.44 price decreases by 1.63.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Impact,None,Yes,Local
+age,"From 37.75 to 50.96 price increases by 0.89.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Impact,None,Yes,Local
+age,"From 51.27 to 75.16 price decreases by 1.98.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Impact,None,Yes,Local
+age,"From 75.48 to 88.37 price increases by 1.37.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Impact,None,Yes,Local
+age,"From 88.68 to 100.00 price decreases by 2.00.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Impact,None,Yes,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases by 20.18.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Impact,None,Yes,Local
+dis,"From 7.06 to 9.14 price increases by 2.62.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Impact,None,Yes,Local
+dis,"From 9.17 to 10.71 price decreases by 3.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Impact,None,Yes,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases by 0.69.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Impact,None,Yes,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases by 24.37.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Impact,None,Yes,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases by 2.18.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Impact,None,Yes,Local
+nox,"From 46.79 to 69.71 price decreases by 7.79.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Impact,None,Yes,Local
+nox,"From 69.87 to 77.35 price increases by 1.94.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Impact,None,Yes,Local
+nox,"From 77.51 to 87.10 price decreases by 6.93.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Impact,None,Yes,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price increases by 0.01.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Impact,None,Yes,Local
+ptratio,"From 12.86 to 16.68 price decreases by 8.02.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Impact,None,Yes,Local
+ptratio,"From 16.71 to 17.43 price increases by 0.47.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Impact,None,Yes,Local
+ptratio,"From 17.46 to 18.24 price decreases by 0.39.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Impact,None,Yes,Local
+ptratio,"From 18.27 to 19.10 price increases by 0.37.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Impact,None,Yes,Local
+ptratio,"From 19.13 to 21.20 price decreases by 1.80.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Impact,None,Yes,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases by 15.02.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Impact,None,Yes,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases rapidly.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Impact,Threshold,No,Local
+age,"From 13.23 to 37.44 price decreases rapidly.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Impact,Threshold,No,Local
+age,"From 37.75 to 50.96 price increases rapidly.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Impact,Threshold,No,Local
+age,"From 51.27 to 75.16 price decreases rapidly.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Impact,Threshold,No,Local
+age,"From 75.48 to 88.37 price increases rapidly.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Impact,Threshold,No,Local
+age,"From 88.68 to 100.00 price decreases rapidly.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Impact,Threshold,No,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases rapidly.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Impact,Threshold,No,Local
+dis,"From 7.06 to 9.14 price increases moderately.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Impact,Threshold,No,Local
+dis,"From 9.17 to 10.71 price decreases rapidly.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Impact,Threshold,No,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases moderately.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Impact,Threshold,No,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Impact,Threshold,No,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases rapidly.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Impact,Threshold,No,Local
+nox,"From 46.79 to 69.71 price decreases rapidly.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Impact,Threshold,No,Local
+nox,"From 69.87 to 77.35 price increases moderately.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Impact,Threshold,No,Local
+nox,"From 77.51 to 87.10 price decreases rapidly.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Impact,Threshold,No,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price remains virtually constant.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Impact,Threshold,No,Local
+ptratio,"From 12.86 to 16.68 price decreases rapidly.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Impact,Threshold,No,Local
+ptratio,"From 16.71 to 17.43 price increases moderately.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Impact,Threshold,No,Local
+ptratio,"From 17.46 to 18.24 price decreases moderately.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Impact,Threshold,No,Local
+ptratio,"From 18.27 to 19.10 price increases moderately.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Impact,Threshold,No,Local
+ptratio,"From 19.13 to 21.20 price decreases moderately.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Impact,Threshold,No,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Impact,Threshold,No,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases rapidly from 1.33 to 1.82 at mean 1.66.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Impact,Threshold,Yes,Local
+age,"From 13.23 to 37.44 price decreases rapidly from 1.82 to 0.19 at mean 0.99.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Impact,Threshold,Yes,Local
+age,"From 37.75 to 50.96 price increases rapidly from 0.19 to 1.08 at mean 0.64.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Impact,Threshold,Yes,Local
+age,"From 51.27 to 75.16 price decreases rapidly from 1.08 to -0.90 at mean 0.01.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Impact,Threshold,Yes,Local
+age,"From 75.48 to 88.37 price increases rapidly from -0.90 to 0.47 at mean -0.19.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Impact,Threshold,Yes,Local
+age,"From 88.68 to 100.00 price decreases rapidly from 0.46 to -1.54 at mean -0.44.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Impact,Threshold,Yes,Local
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases rapidly from 16.27 to -3.91 at mean 0.99.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Impact,Threshold,Yes,Local
+dis,"From 7.06 to 9.14 price increases moderately from -3.91 to -1.29 at mean -2.66.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Impact,Threshold,Yes,Local
+dis,"From 9.17 to 10.71 price decreases rapidly from -1.29 to -5.03 at mean -2.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Impact,Threshold,Yes,Local
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases moderately from -0.02 to -0.70 at mean -0.36.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Impact,Threshold,Yes,Local
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately from -1.20 to -25.57 at mean -13.38.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Impact,Threshold,Yes,Local
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases rapidly from 3.36 to 5.54 at mean 4.84.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Impact,Threshold,Yes,Local
+nox,"From 46.79 to 69.71 price decreases rapidly from 5.54 to -2.25 at mean 1.32.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Impact,Threshold,Yes,Local
+nox,"From 69.87 to 77.35 price increases moderately from -2.25 to -0.31 at mean -1.27.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Impact,Threshold,Yes,Local
+nox,"From 77.51 to 87.10 price decreases rapidly from -0.32 to -7.25 at mean -2.97.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Impact,Threshold,Yes,Local
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price remains virtually constant at 5.91.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Impact,Threshold,Yes,Local
+ptratio,"From 12.86 to 16.68 price decreases rapidly from 5.91 to -2.11 at mean 2.57.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Impact,Threshold,Yes,Local
+ptratio,"From 16.71 to 17.43 price increases moderately from -2.10 to -1.63 at mean -1.85.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Impact,Threshold,Yes,Local
+ptratio,"From 17.46 to 18.24 price decreases moderately from -1.63 to -2.02 at mean -1.85.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Impact,Threshold,Yes,Local
+ptratio,"From 18.27 to 19.10 price increases moderately from -2.02 to -1.65 at mean -1.82.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Impact,Threshold,Yes,Local
+ptratio,"From 19.13 to 21.20 price decreases moderately from -1.65 to -3.45 at mean -2.38.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Impact,Threshold,Yes,Local
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Local
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately from 11.06 to 26.09 at mean 18.57.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Impact,Threshold,Yes,Local
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+age,"As % Pre-1940 Units changes from 6.00 to 100.00 price changes with slope -0.03.
+",2.866556134567751,-0.030495278027316497,-0.28689311674257195,6.0,100.0,None,Slope,None,No,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price changes with slope -3.42.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Slope,None,No,Global
+dis,"From 7.06 to 10.71 price changes with slope -0.31.
+",1.118534171168395,-0.3062092825684001,0.15188287592237143,7.057457859531772,10.7103,None,Slope,None,No,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price changes with slope -0.03.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Slope,None,No,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price changes with slope -0.69.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Slope,None,No,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+nox,"As Air Pollution changes from 38.50 to 69.71 price changes with slope -0.18.
+",5.614586540421511,-0.17990841216414094,-0.4606221848261839,38.5,69.70802675585284,None,Slope,None,No,Global
+nox,"From 69.87 to 87.10 price changes with slope -0.29.
+",5.001948157004193,-0.29031417403219456,-0.11725368906643938,69.8705685618729,87.1,None,Slope,None,No,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price changes with slope -1.96.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Slope,None,No,Global
+ptratio,"From 16.71 to 21.20 price changes with slope -0.30.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Slope,None,No,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,No,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price changes with slope 3.11.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Slope,None,No,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+age,"As % Pre-1940 Units changes from 6.00 to 100.00 price changes with slope -0.03.
+",2.866556134567751,-0.030495278027316497,-0.28689311674257195,6.0,100.0,None,Slope,None,Yes,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price changes with slope -3.42.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Slope,None,Yes,Global
+dis,"From 7.06 to 10.71 price changes with slope -0.31.
+",1.118534171168395,-0.3062092825684001,0.15188287592237143,7.057457859531772,10.7103,None,Slope,None,Yes,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price changes with slope -0.03.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Slope,None,Yes,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price changes with slope -0.69.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Slope,None,Yes,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+nox,"As Air Pollution changes from 38.50 to 69.71 price changes with slope -0.18.
+",5.614586540421511,-0.17990841216414094,-0.4606221848261839,38.5,69.70802675585284,None,Slope,None,Yes,Global
+nox,"From 69.87 to 87.10 price changes with slope -0.29.
+",5.001948157004193,-0.29031417403219456,-0.11725368906643938,69.8705685618729,87.1,None,Slope,None,Yes,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price changes with slope -1.96.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Slope,None,Yes,Global
+ptratio,"From 16.71 to 21.20 price changes with slope -0.30.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Slope,None,Yes,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,None,Yes,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price changes with slope 3.11.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Slope,None,Yes,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+age,"As % Pre-1940 Units changes from 6.00 to 100.00 price remains virtually constant.
+",2.866556134567751,-0.030495278027316497,-0.28689311674257195,6.0,100.0,None,Slope,Threshold,No,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases moderately and is -3.42 times 5.90.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Slope,Threshold,No,Global
+dis,"From 7.06 to 10.71 price remains virtually constant.
+",1.118534171168395,-0.3062092825684001,0.15188287592237143,7.057457859531772,10.7103,None,Slope,Threshold,No,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price remains virtually constant.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Slope,Threshold,No,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately and is -0.69 times 35.25.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Slope,Threshold,No,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+nox,"As Air Pollution changes from 38.50 to 69.71 price remains virtually constant.
+",5.614586540421511,-0.17990841216414094,-0.4606221848261839,38.5,69.70802675585284,None,Slope,Threshold,No,Global
+nox,"From 69.87 to 87.10 price decreases moderately and is -0.29 times 17.23.
+",5.001948157004193,-0.29031417403219456,-0.11725368906643938,69.8705685618729,87.1,None,Slope,Threshold,No,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases moderately and is -1.96 times 4.08.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Slope,Threshold,No,Global
+ptratio,"From 16.71 to 21.20 price remains virtually constant.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Slope,Threshold,No,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Slope,Threshold,No,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately and is 3.11 times 4.84.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Slope,Threshold,No,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+age,"As % Pre-1940 Units changes from 6.00 to 100.00 price remains virtually constant at 0.40.
+",2.866556134567751,-0.030495278027316497,-0.28689311674257195,6.0,100.0,None,Impact,Threshold,Yes,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases moderately from 16.27 to -3.91 at mean 0.99.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Impact,Threshold,Yes,Global
+dis,"From 7.06 to 10.71 price remains virtually constant at -2.69.
+",1.118534171168395,-0.3062092825684001,0.15188287592237143,7.057457859531772,10.7103,None,Impact,Threshold,Yes,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price remains virtually constant at -0.36.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Impact,Threshold,Yes,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately from -1.20 to -25.57 at mean -13.38.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Impact,Threshold,Yes,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+nox,"As Air Pollution changes from 38.50 to 69.71 price remains virtually constant at 2.24.
+",5.614586540421511,-0.17990841216414094,-0.4606221848261839,38.5,69.70802675585284,None,Impact,Threshold,Yes,Global
+nox,"From 69.87 to 87.10 price decreases moderately from -2.25 to -7.25 at mean -2.22.
+",5.001948157004193,-0.29031417403219456,-0.11725368906643938,69.8705685618729,87.1,None,Impact,Threshold,Yes,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases moderately from 5.90 to -2.11 at mean 2.76.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Impact,Threshold,Yes,Global
+ptratio,"From 16.71 to 21.20 price remains virtually constant at -2.09.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Impact,Threshold,Yes,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately from 11.06 to 26.09 at mean 18.57.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Impact,Threshold,Yes,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+age,"As % Pre-1940 Units changes from 6.00 to 100.00 price decreases by 2.87.
+",2.866556134567751,-0.030495278027316497,-0.28689311674257195,6.0,100.0,None,Impact,None,No,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases by 20.18.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Impact,None,No,Global
+dis,"From 7.06 to 10.71 price decreases by 1.12.
+",1.118534171168395,-0.3062092825684001,0.15188287592237143,7.057457859531772,10.7103,None,Impact,None,No,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases by 0.69.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Impact,None,No,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases by 24.37.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Impact,None,No,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+nox,"As Air Pollution changes from 38.50 to 69.71 price decreases by 5.61.
+",5.614586540421511,-0.17990841216414094,-0.4606221848261839,38.5,69.70802675585284,None,Impact,None,No,Global
+nox,"From 69.87 to 87.10 price decreases by 5.00.
+",5.001948157004193,-0.29031417403219456,-0.11725368906643938,69.8705685618729,87.1,None,Impact,None,No,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases by 8.01.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Impact,None,No,Global
+ptratio,"From 16.71 to 21.20 price decreases by 1.35.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Impact,None,No,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,No,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases by 15.02.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Impact,None,No,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+age,"As % Pre-1940 Units changes from 6.00 to 100.00 price decreases by 2.87.
+",2.866556134567751,-0.030495278027316497,-0.28689311674257195,6.0,100.0,None,Impact,None,Yes,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases by 20.18.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Impact,None,Yes,Global
+dis,"From 7.06 to 10.71 price decreases by 1.12.
+",1.118534171168395,-0.3062092825684001,0.15188287592237143,7.057457859531772,10.7103,None,Impact,None,Yes,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases by 0.69.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Impact,None,Yes,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases by 24.37.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Impact,None,Yes,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+nox,"As Air Pollution changes from 38.50 to 69.71 price decreases by 5.61.
+",5.614586540421511,-0.17990841216414094,-0.4606221848261839,38.5,69.70802675585284,None,Impact,None,Yes,Global
+nox,"From 69.87 to 87.10 price decreases by 5.00.
+",5.001948157004193,-0.29031417403219456,-0.11725368906643938,69.8705685618729,87.1,None,Impact,None,Yes,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases by 8.01.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Impact,None,Yes,Global
+ptratio,"From 16.71 to 21.20 price decreases by 1.35.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Impact,None,Yes,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,None,Yes,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases by 15.02.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Impact,None,Yes,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+age,"As % Pre-1940 Units changes from 6.00 to 100.00 price remains virtually constant.
+",2.866556134567751,-0.030495278027316497,-0.28689311674257195,6.0,100.0,None,Impact,Threshold,No,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases moderately.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Impact,Threshold,No,Global
+dis,"From 7.06 to 10.71 price remains virtually constant.
+",1.118534171168395,-0.3062092825684001,0.15188287592237143,7.057457859531772,10.7103,None,Impact,Threshold,No,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price remains virtually constant.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Impact,Threshold,No,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Impact,Threshold,No,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+nox,"As Air Pollution changes from 38.50 to 69.71 price remains virtually constant.
+",5.614586540421511,-0.17990841216414094,-0.4606221848261839,38.5,69.70802675585284,None,Impact,Threshold,No,Global
+nox,"From 69.87 to 87.10 price decreases moderately.
+",5.001948157004193,-0.29031417403219456,-0.11725368906643938,69.8705685618729,87.1,None,Impact,Threshold,No,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases moderately.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Impact,Threshold,No,Global
+ptratio,"From 16.71 to 21.20 price remains virtually constant.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Impact,Threshold,No,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,No,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Impact,Threshold,No,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+age,"As % Pre-1940 Units changes from 6.00 to 100.00 price remains virtually constant at 0.40.
+",2.866556134567751,-0.030495278027316497,-0.28689311674257195,6.0,100.0,None,Impact,Threshold,Yes,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases moderately from 16.27 to -3.91 at mean 0.99.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,None,Impact,Threshold,Yes,Global
+dis,"From 7.06 to 10.71 price remains virtually constant at -2.69.
+",1.118534171168395,-0.3062092825684001,0.15188287592237143,7.057457859531772,10.7103,None,Impact,Threshold,Yes,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price remains virtually constant at -0.36.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,None,Impact,Threshold,Yes,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately from -1.20 to -25.57 at mean -13.38.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,None,Impact,Threshold,Yes,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+nox,"As Air Pollution changes from 38.50 to 69.71 price remains virtually constant at 2.24.
+",5.614586540421511,-0.17990841216414094,-0.4606221848261839,38.5,69.70802675585284,None,Impact,Threshold,Yes,Global
+nox,"From 69.87 to 87.10 price decreases moderately from -2.25 to -7.25 at mean -2.22.
+",5.001948157004193,-0.29031417403219456,-0.11725368906643938,69.8705685618729,87.1,None,Impact,Threshold,Yes,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 16.68 price decreases moderately from 5.90 to -2.11 at mean 2.76.
+",8.008697285779052,-1.9608585722632965,-0.8661122733236382,12.6,16.684280936454847,None,Impact,Threshold,Yes,Global
+ptratio,"From 16.71 to 21.20 price remains virtually constant at -2.09.
+",1.3531549548287232,-0.30157523218082005,-0.2835572962993932,16.713043478260868,21.2,None,Impact,Threshold,Yes,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,None,Impact,Threshold,Yes,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately from 11.06 to 26.09 at mean 18.57.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,None,Impact,Threshold,Yes,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price changes with slope 0.07.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Slope,None,No,Global
+age,"From 13.23 to 37.44 price changes with slope -0.07.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Slope,None,No,Global
+age,"From 37.75 to 50.96 price changes with slope 0.07.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Slope,None,No,Global
+age,"From 51.27 to 75.16 price changes with slope -0.08.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Slope,None,No,Global
+age,"From 75.48 to 88.37 price changes with slope 0.11.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Slope,None,No,Global
+age,"From 88.68 to 100.00 price changes with slope -0.18.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Slope,None,No,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price changes with slope -3.42.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Slope,None,No,Global
+dis,"From 7.06 to 9.14 price changes with slope 1.26.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Slope,None,No,Global
+dis,"From 9.17 to 10.71 price changes with slope -2.43.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Slope,None,No,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price changes with slope -0.03.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Slope,None,No,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price changes with slope -0.69.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Slope,None,No,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+nox,"As Air Pollution changes from 38.50 to 46.63 price changes with slope 0.27.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Slope,None,No,Global
+nox,"From 46.79 to 69.71 price changes with slope -0.34.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Slope,None,No,Global
+nox,"From 69.87 to 77.35 price changes with slope 0.26.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Slope,None,No,Global
+nox,"From 77.51 to 87.10 price changes with slope -0.72.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Slope,None,No,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price changes with slope 0.04.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Slope,None,No,Global
+ptratio,"From 12.86 to 16.68 price changes with slope -2.10.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Slope,None,No,Global
+ptratio,"From 16.71 to 17.43 price changes with slope 0.65.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Slope,None,No,Global
+ptratio,"From 17.46 to 18.24 price changes with slope -0.50.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Slope,None,No,Global
+ptratio,"From 18.27 to 19.10 price changes with slope 0.45.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Slope,None,No,Global
+ptratio,"From 19.13 to 21.20 price changes with slope -0.87.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Slope,None,No,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,No,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price changes with slope 3.11.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Slope,None,No,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price changes with slope 0.07.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Slope,None,Yes,Global
+age,"From 13.23 to 37.44 price changes with slope -0.07.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Slope,None,Yes,Global
+age,"From 37.75 to 50.96 price changes with slope 0.07.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Slope,None,Yes,Global
+age,"From 51.27 to 75.16 price changes with slope -0.08.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Slope,None,Yes,Global
+age,"From 75.48 to 88.37 price changes with slope 0.11.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Slope,None,Yes,Global
+age,"From 88.68 to 100.00 price changes with slope -0.18.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Slope,None,Yes,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price changes with slope -3.42.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Slope,None,Yes,Global
+dis,"From 7.06 to 9.14 price changes with slope 1.26.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Slope,None,Yes,Global
+dis,"From 9.17 to 10.71 price changes with slope -2.43.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Slope,None,Yes,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price changes with slope -0.03.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Slope,None,Yes,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price changes with slope -0.69.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Slope,None,Yes,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+nox,"As Air Pollution changes from 38.50 to 46.63 price changes with slope 0.27.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Slope,None,Yes,Global
+nox,"From 46.79 to 69.71 price changes with slope -0.34.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Slope,None,Yes,Global
+nox,"From 69.87 to 77.35 price changes with slope 0.26.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Slope,None,Yes,Global
+nox,"From 77.51 to 87.10 price changes with slope -0.72.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Slope,None,Yes,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price changes with slope 0.04.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Slope,None,Yes,Global
+ptratio,"From 12.86 to 16.68 price changes with slope -2.10.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Slope,None,Yes,Global
+ptratio,"From 16.71 to 17.43 price changes with slope 0.65.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Slope,None,Yes,Global
+ptratio,"From 17.46 to 18.24 price changes with slope -0.50.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Slope,None,Yes,Global
+ptratio,"From 18.27 to 19.10 price changes with slope 0.45.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Slope,None,Yes,Global
+ptratio,"From 19.13 to 21.20 price changes with slope -0.87.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Slope,None,Yes,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,None,Yes,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price changes with slope 3.11.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Slope,None,Yes,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price remains virtually constant.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Slope,Threshold,No,Global
+age,"From 13.23 to 37.44 price remains virtually constant.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Slope,Threshold,No,Global
+age,"From 37.75 to 50.96 price remains virtually constant.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Slope,Threshold,No,Global
+age,"From 51.27 to 75.16 price remains virtually constant.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Slope,Threshold,No,Global
+age,"From 75.48 to 88.37 price remains virtually constant.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Slope,Threshold,No,Global
+age,"From 88.68 to 100.00 price decreases moderately and is -0.18 times 11.32.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Slope,Threshold,No,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases moderately and is -3.42 times 5.90.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Slope,Threshold,No,Global
+dis,"From 7.06 to 9.14 price remains virtually constant.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Slope,Threshold,No,Global
+dis,"From 9.17 to 10.71 price decreases moderately and is -2.43 times 1.54.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Slope,Threshold,No,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price remains virtually constant.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Slope,Threshold,No,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately and is -0.69 times 35.25.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Slope,Threshold,No,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases moderately and is 0.27 times 8.13.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Slope,Threshold,No,Global
+nox,"From 46.79 to 69.71 price decreases moderately and is -0.34 times 22.92.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Slope,Threshold,No,Global
+nox,"From 69.87 to 77.35 price remains virtually constant.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Slope,Threshold,No,Global
+nox,"From 77.51 to 87.10 price decreases moderately and is -0.72 times 9.59.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Slope,Threshold,No,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price remains virtually constant.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Slope,Threshold,No,Global
+ptratio,"From 12.86 to 16.68 price decreases moderately and is -2.10 times 3.83.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Slope,Threshold,No,Global
+ptratio,"From 16.71 to 17.43 price remains virtually constant.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Slope,Threshold,No,Global
+ptratio,"From 17.46 to 18.24 price remains virtually constant.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Slope,Threshold,No,Global
+ptratio,"From 18.27 to 19.10 price remains virtually constant.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Slope,Threshold,No,Global
+ptratio,"From 19.13 to 21.20 price remains virtually constant.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Slope,Threshold,No,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Slope,Threshold,No,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately and is 3.11 times 4.84.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Slope,Threshold,No,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price remains virtually constant at 1.66.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Impact,Threshold,Yes,Global
+age,"From 13.23 to 37.44 price remains virtually constant at 0.99.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Impact,Threshold,Yes,Global
+age,"From 37.75 to 50.96 price remains virtually constant at 0.64.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Impact,Threshold,Yes,Global
+age,"From 51.27 to 75.16 price remains virtually constant at 0.01.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Impact,Threshold,Yes,Global
+age,"From 75.48 to 88.37 price remains virtually constant at -0.19.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Impact,Threshold,Yes,Global
+age,"From 88.68 to 100.00 price decreases moderately from 0.46 to -1.54 at mean -0.44.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Impact,Threshold,Yes,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases moderately from 16.27 to -3.91 at mean 0.99.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Impact,Threshold,Yes,Global
+dis,"From 7.06 to 9.14 price remains virtually constant at -2.66.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Impact,Threshold,Yes,Global
+dis,"From 9.17 to 10.71 price decreases moderately from -1.29 to -5.03 at mean -2.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Impact,Threshold,Yes,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price remains virtually constant at -0.36.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Impact,Threshold,Yes,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately from -1.20 to -25.57 at mean -13.38.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Impact,Threshold,Yes,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases moderately from 3.36 to 5.54 at mean 4.84.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Impact,Threshold,Yes,Global
+nox,"From 46.79 to 69.71 price decreases moderately from 5.54 to -2.25 at mean 1.32.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Impact,Threshold,Yes,Global
+nox,"From 69.87 to 77.35 price remains virtually constant at -1.27.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Impact,Threshold,Yes,Global
+nox,"From 77.51 to 87.10 price decreases moderately from -0.32 to -7.25 at mean -2.97.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Impact,Threshold,Yes,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price remains virtually constant at 5.91.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Impact,Threshold,Yes,Global
+ptratio,"From 12.86 to 16.68 price decreases moderately from 5.91 to -2.11 at mean 2.57.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Impact,Threshold,Yes,Global
+ptratio,"From 16.71 to 17.43 price remains virtually constant at -1.85.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Impact,Threshold,Yes,Global
+ptratio,"From 17.46 to 18.24 price remains virtually constant at -1.85.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Impact,Threshold,Yes,Global
+ptratio,"From 18.27 to 19.10 price remains virtually constant at -1.82.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Impact,Threshold,Yes,Global
+ptratio,"From 19.13 to 21.20 price remains virtually constant at -2.38.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Impact,Threshold,Yes,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately from 11.06 to 26.09 at mean 18.57.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Impact,Threshold,Yes,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases by 0.49.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Impact,None,No,Global
+age,"From 13.23 to 37.44 price decreases by 1.63.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Impact,None,No,Global
+age,"From 37.75 to 50.96 price increases by 0.89.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Impact,None,No,Global
+age,"From 51.27 to 75.16 price decreases by 1.98.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Impact,None,No,Global
+age,"From 75.48 to 88.37 price increases by 1.37.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Impact,None,No,Global
+age,"From 88.68 to 100.00 price decreases by 2.00.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Impact,None,No,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases by 20.18.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Impact,None,No,Global
+dis,"From 7.06 to 9.14 price increases by 2.62.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Impact,None,No,Global
+dis,"From 9.17 to 10.71 price decreases by 3.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Impact,None,No,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases by 0.69.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Impact,None,No,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases by 24.37.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Impact,None,No,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases by 2.18.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Impact,None,No,Global
+nox,"From 46.79 to 69.71 price decreases by 7.79.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Impact,None,No,Global
+nox,"From 69.87 to 77.35 price increases by 1.94.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Impact,None,No,Global
+nox,"From 77.51 to 87.10 price decreases by 6.93.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Impact,None,No,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price increases by 0.01.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Impact,None,No,Global
+ptratio,"From 12.86 to 16.68 price decreases by 8.02.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Impact,None,No,Global
+ptratio,"From 16.71 to 17.43 price increases by 0.47.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Impact,None,No,Global
+ptratio,"From 17.46 to 18.24 price decreases by 0.39.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Impact,None,No,Global
+ptratio,"From 18.27 to 19.10 price increases by 0.37.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Impact,None,No,Global
+ptratio,"From 19.13 to 21.20 price decreases by 1.80.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Impact,None,No,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,No,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases by 15.02.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Impact,None,No,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price increases by 0.49.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Impact,None,Yes,Global
+age,"From 13.23 to 37.44 price decreases by 1.63.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Impact,None,Yes,Global
+age,"From 37.75 to 50.96 price increases by 0.89.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Impact,None,Yes,Global
+age,"From 51.27 to 75.16 price decreases by 1.98.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Impact,None,Yes,Global
+age,"From 75.48 to 88.37 price increases by 1.37.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Impact,None,Yes,Global
+age,"From 88.68 to 100.00 price decreases by 2.00.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Impact,None,Yes,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases by 20.18.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Impact,None,Yes,Global
+dis,"From 7.06 to 9.14 price increases by 2.62.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Impact,None,Yes,Global
+dis,"From 9.17 to 10.71 price decreases by 3.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Impact,None,Yes,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price decreases by 0.69.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Impact,None,Yes,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases by 24.37.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Impact,None,Yes,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases by 2.18.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Impact,None,Yes,Global
+nox,"From 46.79 to 69.71 price decreases by 7.79.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Impact,None,Yes,Global
+nox,"From 69.87 to 77.35 price increases by 1.94.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Impact,None,Yes,Global
+nox,"From 77.51 to 87.10 price decreases by 6.93.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Impact,None,Yes,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price increases by 0.01.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Impact,None,Yes,Global
+ptratio,"From 12.86 to 16.68 price decreases by 8.02.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Impact,None,Yes,Global
+ptratio,"From 16.71 to 17.43 price increases by 0.47.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Impact,None,Yes,Global
+ptratio,"From 17.46 to 18.24 price decreases by 0.39.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Impact,None,Yes,Global
+ptratio,"From 18.27 to 19.10 price increases by 0.37.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Impact,None,Yes,Global
+ptratio,"From 19.13 to 21.20 price decreases by 1.80.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Impact,None,Yes,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,None,Yes,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases by 15.02.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Impact,None,Yes,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price remains virtually constant.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Impact,Threshold,No,Global
+age,"From 13.23 to 37.44 price remains virtually constant.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Impact,Threshold,No,Global
+age,"From 37.75 to 50.96 price remains virtually constant.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Impact,Threshold,No,Global
+age,"From 51.27 to 75.16 price remains virtually constant.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Impact,Threshold,No,Global
+age,"From 75.48 to 88.37 price remains virtually constant.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Impact,Threshold,No,Global
+age,"From 88.68 to 100.00 price decreases moderately.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Impact,Threshold,No,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases moderately.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Impact,Threshold,No,Global
+dis,"From 7.06 to 9.14 price remains virtually constant.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Impact,Threshold,No,Global
+dis,"From 9.17 to 10.71 price decreases moderately.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Impact,Threshold,No,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price remains virtually constant.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Impact,Threshold,No,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Impact,Threshold,No,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases moderately.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Impact,Threshold,No,Global
+nox,"From 46.79 to 69.71 price decreases moderately.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Impact,Threshold,No,Global
+nox,"From 69.87 to 77.35 price remains virtually constant.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Impact,Threshold,No,Global
+nox,"From 77.51 to 87.10 price decreases moderately.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Impact,Threshold,No,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price remains virtually constant.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Impact,Threshold,No,Global
+ptratio,"From 12.86 to 16.68 price decreases moderately.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Impact,Threshold,No,Global
+ptratio,"From 16.71 to 17.43 price remains virtually constant.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Impact,Threshold,No,Global
+ptratio,"From 17.46 to 18.24 price remains virtually constant.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Impact,Threshold,No,Global
+ptratio,"From 18.27 to 19.10 price remains virtually constant.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Impact,Threshold,No,Global
+ptratio,"From 19.13 to 21.20 price remains virtually constant.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Impact,Threshold,No,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,No,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Impact,Threshold,No,Global
+age,"At 6.00 the price is 1.33.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+age,"price ranges from -1.54 to 1.82.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+age,"As % Pre-1940 Units changes from 6.00 to 12.92 price remains virtually constant at 1.66.
+",0.4888841444030889,0.07068489321882185,0.9600744498417813,6.0,12.91638795986622,Detailed,Impact,Threshold,Yes,Global
+age,"From 13.23 to 37.44 price remains virtually constant at 0.99.
+",1.6308571896400876,-0.06737030943663803,-0.9932508585449026,13.230769230769232,37.43812709030101,Detailed,Impact,Threshold,Yes,Global
+age,"From 37.75 to 50.96 price remains virtually constant at 0.64.
+",0.8883738096225225,0.06728058993848385,0.9931115188685046,37.752508361204015,50.95652173913044,Detailed,Impact,Threshold,Yes,Global
+age,"From 51.27 to 75.16 price remains virtually constant at 0.01.
+",1.9797609420790678,-0.0828595355097483,-0.9925361073156678,51.270903010033464,75.1638795986622,Detailed,Impact,Threshold,Yes,Global
+age,"From 75.48 to 88.37 price remains virtually constant at -0.19.
+",1.3664884227201026,0.1060145403200078,0.992672502902108,75.47826086956522,88.36789297658865,Detailed,Impact,Threshold,Yes,Global
+age,"From 88.68 to 100.00 price decreases moderately from 0.46 to -1.54 at mean -0.44.
+",1.9961815418087454,-0.17637656057943737,-0.9959588324988226,88.68227424749166,100.0,Detailed,Impact,Threshold,Yes,Global
+dis,"At 1.13 the price is 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+dis,"price ranges from -5.03 to 16.27.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+dis,"As Distance to Business District changes from 1.13 to 7.03 price decreases moderately from 16.27 to -3.91 at mean 0.99.
+",20.181810599030722,-3.423073702696559,-0.9076692679977808,1.1296,7.025415384615385,Detailed,Impact,Threshold,Yes,Global
+dis,"From 7.06 to 9.14 price remains virtually constant at -2.66.
+",2.622279800419131,1.2590402665700826,0.991057585299263,7.057457859531772,9.140218729096992,Detailed,Impact,Threshold,Yes,Global
+dis,"From 9.17 to 10.71 price decreases moderately from -1.29 to -5.03 at mean -2.74.
+",3.735790541596705,-2.4289312801113487,-0.9844995430255032,9.172261204013378,10.7103,Detailed,Impact,Threshold,Yes,Global
+indus,"At 0.74 the price is -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+indus,"price ranges from -0.70 to -0.02.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+indus,"As % Business in Area changes from 0.74 to 27.74 price remains virtually constant at -0.36.
+",0.6857413610534164,-0.02539782818716357,-1.0,0.74,27.74,Detailed,Impact,Threshold,Yes,Global
+lstat,"At 1.73 the price is -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+lstat,"price ranges from -25.57 to -1.20.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+lstat,"As Percent Lower Income in Area changes from 1.73 to 36.98 price decreases moderately from -1.20 to -25.57 at mean -13.38.
+",24.371254476165827,-0.6913831057068319,-1.0,1.73,36.98,Detailed,Impact,Threshold,Yes,Global
+nox,"At 38.50 the price is 3.36.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+nox,"price ranges from -7.25 to 5.54.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+nox,"As Air Pollution changes from 38.50 to 46.63 price increases moderately from 3.36 to 5.54 at mean 4.84.
+",2.182197853002241,0.26850911853813586,0.9572384511777712,38.5,46.62709030100334,Detailed,Impact,Threshold,Yes,Global
+nox,"From 46.79 to 69.71 price decreases moderately from 5.54 to -2.25 at mean 1.32.
+",7.7935320194627185,-0.3400557560370303,-0.9634096444020545,46.78963210702342,69.70802675585284,Detailed,Impact,Threshold,Yes,Global
+nox,"From 69.87 to 77.35 price remains virtually constant at -1.27.
+",1.9365383579778375,0.25900204376246716,0.993904719868862,69.8705685618729,77.347491638796,Detailed,Impact,Threshold,Yes,Global
+nox,"From 77.51 to 87.10 price decreases moderately from -0.32 to -7.25 at mean -2.97.
+",6.9348292562457665,-0.723133831212069,-0.9835805841685424,77.51003344481606,87.1,Detailed,Impact,Threshold,Yes,Global
+ptratio,"At 12.60 the price is 5.90.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+ptratio,"price ranges from -3.45 to 5.91.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+ptratio,"As Student-Teacher Ratio changes from 12.60 to 12.83 price remains virtually constant at 5.91.
+",0.010147508000770245,0.04410036180567277,0.9675932675831664,12.6,12.830100334448161,Detailed,Impact,Threshold,Yes,Global
+ptratio,"From 12.86 to 16.68 price decreases moderately from 5.91 to -2.11 at mean 2.57.
+",8.018420642748941,-2.0960900263874223,-0.976410350972168,12.858862876254179,16.684280936454847,Detailed,Impact,Threshold,Yes,Global
+ptratio,"From 16.71 to 17.43 price remains virtually constant at -1.85.
+",0.47005386547741734,0.6537028175709205,0.9936114451866112,16.713043478260868,17.43210702341137,Detailed,Impact,Threshold,Yes,Global
+ptratio,"From 17.46 to 18.24 price remains virtually constant at -1.85.
+",0.39074013919634365,-0.5031494471132929,-0.9895375998644396,17.46086956521739,18.237458193979933,Detailed,Impact,Threshold,Yes,Global
+ptratio,"From 18.27 to 19.10 price remains virtually constant at -1.82.
+",0.3731890123177528,0.4474078375421359,0.9912528915628072,18.266220735785954,19.10033444816053,Detailed,Impact,Threshold,Yes,Global
+ptratio,"From 19.13 to 21.20 price remains virtually constant at -2.38.
+",1.8039027274495325,-0.8710705999796681,-0.98766134604134,19.129096989966555,21.2,Detailed,Impact,Threshold,Yes,Global
+rm,"At 3.56 the price is 11.06.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+rm,"price ranges from 11.06 to 26.09.
+",0.0,0.0,0.0,-1.0,-1.0,Detailed,Impact,Threshold,Yes,Global
+rm,"As # Rooms in House changes from 3.56 to 8.40 price increases moderately from 11.06 to 26.09 at mean 18.57.
+",15.024324394893819,3.1061245389484844,1.0,3.5610000000000004,8.398,Detailed,Impact,Threshold,Yes,Global

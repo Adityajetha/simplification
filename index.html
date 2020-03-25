@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>COGAM Calibration Study Condition Explorer</title>
+
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <link href="icon.png" rel="apple-touch-icon">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link href="css/scrubber.css" rel="stylesheet">
+    <link href="css/filmstrip.css" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" rel="stylesheet">
+
+    <script src="http://d3js.org/d3.v3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/scrubber.js"></script>
+    <script src="js/filmstrip.js"></script>
+    <script src="js/linegraph.js"></script>
+    <script src="js/filmstrip_background.js"></script>
+
+    <meta content="#fafafa" name="theme-color">
+</head>
+
+<body>
+
+<div class="preload" id="preload"><img src="img/KUJoe.gif"></div>
+
+<div class="conditions" id="conditions">
+
+
+    <div>
+        <label className="col-form-label" htmlFor="iv1">Method</label>
+        <select className="custom-select" id="iv1" name="iv1" onChange=controlInputsChangeHandler(event)>
+            <option value="mone">Method 1</option>
+            <option value="m2">Method 2</option>
+            <option value="m3">Method 3</option>
+        </select>
+    </div>
+
+    <div>
+        <label className="col-form-label" htmlFor="iv2">#Simplification</label>
+        <select className="custom-select" id="iv2" name="iv2" onChange=controlInputsChangeHandler(event)>
+            <option value=2>2</option>
+            <option value=4>4</option>
+            <option value=101>101</option>
+            <option value=8>8</option>
+        </select>
+    </div>
+
+    <div>
+        <label className="col-form-label" htmlFor="iv3">Feature</label>
+        <select className="custom-select" id="iv3" name="iv3" onChange=controlInputsChangeHandler(event)>
+            <option value="%Pre-1940 Units">%Pre-1940 Units</option>
+            <option value="Stud-Teach Ratio">Student-Teacher Ratio</option>
+            <option value="Air Pollution">Air Pollution</option>
+            <option value="Dist. CBD">Dist. to Business District</option>
+        </select>
+    </div>
+
+
+
+    <div>
+        <label class="control-label" for="shareYRadios">ShareY:</label>
+        <label class="radio-inline" for="shareYRadios-00">
+            <input id="shareYRadios-00" name="shareYRadios" onChange=controlInputsChangeHandler(event); type="radio" value="None">
+            None
+        </label>
+        <label class="radio-inline" for="shareYRadios-0">
+            <input checked="checked" id="shareYRadios-0" name="shareYRadios" onChange=controlInputsChangeHandler(event); type="radio" value="Linear">
+            Lin
+        </label>
+        <label class="radio-inline" for="shareYradios-1">
+            <input id="shareYRadios-1" name="shareYRadios" onChange=controlInputsChangeHandler(event); type="radio" value="NonLinear">
+            NonLin
+        </label>
+        <label class="radio-inline" for="shareYradios-2">
+            <input id="shareYRadios-2" name="shareYRadios" onChange=controlInputsChangeHandler(event); type="radio" value="All">
+            All
+        </label>
+    </div>
+
+
+</div>
+<div class="dashboard" id="dashboard">
+    <div class="linegraphs-container" id="scrubber-container"></div>
+    <div class="linegraphs-container" id="linegraphs-container"></div>
+    <div class="linegraphs-container" id="filmstrip-container"></div>
+</div>
+
+
+</body>
+
+
+<!--  <script src="js/lollipop.js"></script>-->
+<!--  <script src="js/line.js"></script>-->
+
+</body>
+
+</html>

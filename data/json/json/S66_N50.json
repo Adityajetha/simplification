@@ -1,0 +1,74 @@
+{
+  "rm": {
+    "fit": "linear",
+    "friendly": "# Rooms in House",
+    "xlabels": [
+      3.5610000000000004,
+      4.758117056856189,
+      5.971411371237457,
+      7.184705685618727,
+      8.398
+    ],
+    "ylabels": [],
+    "currentFactorValue": 5.971411371,
+    "currentOutcomeValue": 8.046661133999999,
+    "expectedFactorValue": 7.184705686,
+    "expectedOutcomeValue": 9.681612672,
+    "increaseInOutcome": 1.6349515380000001,
+    "slope": 1347.5308656633024
+  },
+  "lstat": {
+    "fit": "linear",
+    "friendly": "% Lower Income in Area",
+    "xlabels": [
+      1.73,
+      10.45408026755853,
+      19.296053511705686,
+      28.138026755852838,
+      36.98
+    ],
+    "ylabels": [],
+    "currentFactorValue": 28.13802676,
+    "currentOutcomeValue": -23.14386625,
+    "expectedFactorValue": 19.29605351,
+    "expectedOutcomeValue": -15.87123666,
+    "increaseInOutcome": 7.272629596,
+    "slope": -822.5120564852341
+  },
+  "ptratio": {
+    "fit": "non_linear",
+    "friendly": "Student-Teacher Ratio",
+    "xlabels": [
+      12.6,
+      14.728428093645485,
+      16.88561872909699,
+      19.042809364548496,
+      21.2
+    ],
+    "ylabels": [],
+    "currentFactorValue": 21.2,
+    "currentOutcomeValue": -3.349846551,
+    "expectedFactorValue": 12.6,
+    "expectedOutcomeValue": 7.081336922999999,
+    "increaseInOutcome": 10.43118347,
+    "slope": NaN
+  },
+  "indus": {
+    "fit": "non_linear",
+    "friendly": "% Business in Area",
+    "xlabels": [
+      0.74,
+      7.4222742474916386,
+      14.19484949832776,
+      20.96742474916388,
+      27.74
+    ],
+    "ylabels": [],
+    "currentFactorValue": 12.02762542,
+    "currentOutcomeValue": -0.6909887029999999,
+    "expectedFactorValue": 0.74,
+    "expectedOutcomeValue": 4.80100353,
+    "increaseInOutcome": 5.491992232,
+    "slope": NaN
+  }
+}
