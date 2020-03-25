@@ -24,9 +24,7 @@ function plotLines(solutionPdpData, currentSolutionMinY,currentSolutionMaxY, sha
     //Clear linegraph container
     container = document.getElementById("linegraphs-container");
     currentFeaturePdpData=solutionPdpData;
-    while (container.firstChild) {
-        container.removeChild(container.firstChild);
-    }
+
 
 
     //Filter zero terms
@@ -178,7 +176,7 @@ function getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY, g
                     ticks: {
                         precision: 0,
                         callback: function(label, index, labels) {
-                                return Math.round(label);
+                                return (Math.round(label*100))/100;
                         },
                         //callback: xTickFormatterQuantile,
                         //autoSkip: false,

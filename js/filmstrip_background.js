@@ -11,7 +11,6 @@ var valueLabel;
 var ft_to_val={};
 var val_to_ft={};
 var ft_chunk_indices={};
-var charts = {};
 var scrubVal;
 var num_sim;
 var numSol;
@@ -53,10 +52,7 @@ function plotFilmLines(solutionPdpData, simp_ind, numSol, container, currentSolu
     if(end==numSol){
         start=Math.max(0,end-11);
     }
-    solutionPdpData = solutionPdpData.filter(function (d) {
-        return parseInt(d["100*p"]) >= start && parseInt(d["100*p"]) < end
-    });
-    for(var i=start;i<end;i++) {
+    for(var i=0;i<numSol;i++) {
 
 
         //console.log("text");
@@ -105,22 +101,16 @@ function plotFilmLines(solutionPdpData, simp_ind, numSol, container, currentSolu
 
 function plotFilmLineGraph(values, outcomes, simplify_index,ind,simp_ind,container, valueLabel,outcomeLabel, grids, shareY, minY, maxY) {
 
-
     //Create div in container
     //console.log(currentFeatureTextData);
     //console.log(container);
     lineGraphDiv = document.createElement("div");
-    lineGraphDiv.style.position='relative';
-    lineGraphDiv.style.left=ind*150 +'px';
-    lineGraphDiv.style.top=-ind*150 +'px';
+
     //console.log(lineGraphDiv.style.left);
     lineGraph = document.createElement("canvas");
     lineGraph.height = 150;
     lineGraph.width = 150;
     console.log(simplify_index,simp_ind);
-    if(simp_ind==simplify_index){
-        lineGraph.style.background="#DDD";
-    }
     lineGraph.id = "filmstrip_" + valueLabel+"_"+simplify_index;
     lineGraphDiv.id = valueLabel+simplify_index;
     lineGraphDiv.appendChild(lineGraph);
@@ -160,6 +150,5 @@ function plotFilmLineGraph(values, outcomes, simplify_index,ind,simp_ind,contain
         data: data,
         options: options
     });
-    charts[valueLabel]=lineChart;
 }
 

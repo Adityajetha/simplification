@@ -51,6 +51,7 @@ function onReadyData() {
         scrubber.onValueChanged = function (value) {
             scrubVal=value;
             filmstrip.value(scrubVal);
+            filmstrip.track.scrollLeft = 150*iv2*scrubVal;
             //console.log(scrubVal); // the value at time of invocation
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
@@ -145,8 +146,6 @@ function controlInputsChangeHandler() {
     var iv3Dropdown = document.getElementById("iv3");
     iv3 = iv3Dropdown.options[iv3Dropdown.selectedIndex].value;
 
-    filmstrip.elt.style.width = Math.min(iv2*150,1650)+'px';
-    filmstrip.track.style.width = Math.min(iv2*150,1650)+'px';
     var shareY = [].filter.call(document.getElementsByName("shareYRadios"), function (n) {
         return n.checked
     })[0].value;
@@ -165,21 +164,54 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
     //console.log(iv1,ind,iv3);
     //console.log(pdpData);
     //console.log('ind is ' + ind);
-    var solutionPdpData = pdpData.filter(function (d) {
-        return (true || d["method"] == iv1) && (d["feature"] == iv3)
-    });
-    let currentSolutionMaxY = Math.round(Math.max.apply(null, unravel(solutionPdpData, "Partial Price")));;
-    let currentSolutionMinY = Math.round(Math.min.apply(null, unravel(solutionPdpData, "Partial Price")));;
-    solutionPdpData = pdpData.filter(function (d) {
-        return (true || d["method"] == iv1) && (parseInt(d["100*p"]) == ind) && (d["feature"] == iv3)
-    });
-    let share  = "Local";
-    if(shareY=="All"){
-        share="Global";
+    container = document.getElementById("linegraphs-container");
+
+    while (container.firstChild) {
+        container.removeChild(container.firstChild);
     }
-    //console.log(solutionPdpData);
-    plotLines(solutionPdpData, currentSolutionMinY,currentSolutionMaxY,shareY, grids, labels, featureOrder, ignoreZeros);
-    if(true||draw_track) {
+    names=[];
+    names[0]="%Pre-1940 Units";
+    names[1]="Stud-Teach Ratio";
+    names[2]="Air Pollution";
+    names[3]="Dist. CBD";
+    for(var i=0;i<4;i++) {
+        if(names[i]==iv3) {
+            var solutionPdpData = pdpData.filter(function (d) {
+                return (true || d["method"] == iv1) && (d["feature"] == iv3)
+            });
+            let currentSolutionMaxY = Math.round(Math.max.apply(null, unravel(solutionPdpData, "Partial Price")));
+            let currentSolutionMinY = Math.round(Math.min.apply(null, unravel(solutionPdpData, "Partial Price")));
+            solutionPdpData = pdpData.filter(function (d) {
+                return (true || d["method"] == iv1) && (parseInt(d["100*p"]) == ind) && (d["feature"] == iv3)
+            });
+            let share = "Local";
+            if (shareY == "All") {
+                share = "Global";
+            }
+            //console.log(solutionPdpData);
+            plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY, shareY, grids, labels, featureOrder, ignoreZeros);
+        }
+        else{/*
+            var solutionPdpData = pdpData.filter(function (d) {
+                return (true || d["method"] == iv1) && (d["feature"] == names[i])
+            });
+            let currentSolutionMaxY = Math.round(Math.max.apply(null, unravel(solutionPdpData, "Partial Price")));
+            let currentSolutionMinY = Math.round(Math.min.apply(null, unravel(solutionPdpData, "Partial Price")));
+            solutionPdpData = pdpData.filter(function (d) {
+                return (true || d["method"] == iv1) && (parseInt(d["100*p"]) == 100) && (d["feature"] == iv3)
+            });
+            let share = "Local";
+            if (shareY == "All") {
+                share = "Global";
+            }
+            //console.log(solutionPdpData);
+            plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY, shareY, grids, labels, featureOrder, ignoreZeros);
+        */
+        }
+    }
+
+
+    if(draw_track) {
         solutionPdpData = pdpData.filter(function (d) {
             return (true || d["method"] == iv1) && (d["feature"] == iv3)
         });
