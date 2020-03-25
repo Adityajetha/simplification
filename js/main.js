@@ -29,14 +29,14 @@ function onReadyData() {
         document.getElementById("preload").style.display = "none";
         container = document.getElementById("scrubber-container");
         scrubber = new ScrubberView();
-        console.log(container);
+        //console.log(container);
         container.appendChild(scrubber.elt);
 
 // onScrubStart is called whenever a user starts scrubbing
         scrubber.onScrubStart = function (value) {
             scrubVal=value;
             filmstrip.value(scrubVal);
-            console.log(value); // the value at the time of scrub start
+            //console.log(value); // the value at the time of scrub start
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -51,7 +51,7 @@ function onReadyData() {
         scrubber.onValueChanged = function (value) {
             scrubVal=value;
             filmstrip.value(scrubVal);
-            console.log(scrubVal); // the value at time of invocation
+            //console.log(scrubVal); // the value at time of invocation
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -65,7 +65,7 @@ function onReadyData() {
         scrubber.onScrubEnd = function (value) {
             scrubVal=value;
             filmstrip.value(scrubVal);
-            console.log(scrubVal); // the value at the time of scrub end
+            //console.log(scrubVal); // the value at the time of scrub end
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -83,7 +83,7 @@ function onReadyData() {
         filmstrip.onScrubStart = function (value) {
             scrubVal=value;
             scrubber.value(scrubVal);
-            console.log(value); // the value at the time of scrub start
+            //console.log(value); // the value at the time of scrub start
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -98,7 +98,7 @@ function onReadyData() {
         filmstrip.onValueChanged = function (value) {
             scrubVal=value;
             scrubber.value(scrubVal);
-            console.log(scrubVal); // the value at time of invocation
+            //console.log(scrubVal); // the value at time of invocation
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -112,7 +112,7 @@ function onReadyData() {
         filmstrip.onScrubEnd = function (value) {
             scrubVal=value;
             scrubber.value(scrubVal);
-            console.log(scrubVal); // the value at the time of scrub end
+            //console.log(scrubVal); // the value at the time of scrub end
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -145,8 +145,8 @@ function controlInputsChangeHandler() {
     var iv3Dropdown = document.getElementById("iv3");
     iv3 = iv3Dropdown.options[iv3Dropdown.selectedIndex].value;
 
-    filmstrip.elt.style.width = iv2*300+'px';
-    filmstrip.track.style.width = iv2*300+'px';
+    filmstrip.elt.style.width = Math.min(iv2*150,1650)+'px';
+    filmstrip.track.style.width = Math.min(iv2*150,1650)+'px';
     var shareY = [].filter.call(document.getElementsByName("shareYRadios"), function (n) {
         return n.checked
     })[0].value;
@@ -162,10 +162,15 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
     featureOrder = "default";
     var ind = getindex(scrubVal,iv2);
     prev_ind=ind;
-    console.log(iv1,ind,iv3);
+    //console.log(iv1,ind,iv3);
     //console.log(pdpData);
-    console.log('ind is ' + ind);
+    //console.log('ind is ' + ind);
     var solutionPdpData = pdpData.filter(function (d) {
+        return (true || d["method"] == iv1) && (d["feature"] == iv3)
+    });
+    let currentSolutionMaxY = Math.round(Math.max.apply(null, unravel(solutionPdpData, "Partial Price")));;
+    let currentSolutionMinY = Math.round(Math.min.apply(null, unravel(solutionPdpData, "Partial Price")));;
+    solutionPdpData = pdpData.filter(function (d) {
         return (true || d["method"] == iv1) && (parseInt(d["100*p"]) == ind) && (d["feature"] == iv3)
     });
     let share  = "Local";
@@ -173,15 +178,19 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
         share="Global";
     }
     //console.log(solutionPdpData);
-    plotLines(solutionPdpData, shareY, grids, labels, featureOrder, ignoreZeros);
-    if(draw_track) {
+    plotLines(solutionPdpData, currentSolutionMinY,currentSolutionMaxY,shareY, grids, labels, featureOrder, ignoreZeros);
+    if(true||draw_track) {
         solutionPdpData = pdpData.filter(function (d) {
             return (true || d["method"] == iv1) && (d["feature"] == iv3)
         });
 
 
-        plotFilmLines(solutionPdpData, iv2, filmstrip.track, shareY, grids, labels, featureOrder, ignoreZeros);
+        plotFilmLines(solutionPdpData, ind, iv2, filmstrip.track, currentSolutionMinY,currentSolutionMaxY, shareY, grids, labels, featureOrder, ignoreZeros);
     }
+    //var varid = "filmstrip_" + iv3 +"_"+ind;
+    //var elmnt = document.getElementById(varid);
+    //elmnt.scrollIntoView();
+
 }
 
 

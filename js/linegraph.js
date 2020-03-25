@@ -16,12 +16,9 @@ var scrubVal;
 var num_sim;
 
 
-
-
-
-
-function plotLines(solutionPdpData, shareY, grids, labels, featureOrder, ignoreZeros) {
-
+function plotLines(solutionPdpData, currentSolutionMinY,currentSolutionMaxY, shareY, grids, labels, featureOrder, ignoreZeros) {
+    console.log(currentSolutionMinY);
+    console.log(currentSolutionMaxY);
     //console.log("featureOrder",featureOrder);
 
     //Clear linegraph container
@@ -48,41 +45,18 @@ function plotLines(solutionPdpData, shareY, grids, labels, featureOrder, ignoreZ
         return d["fit"] === "non_linear"
     });
 
-    currentSolutionMinY = null;
-    currentSolutionMaxY = null;
-
-    currentSolutionMinYLinear = null;
-    currentSolutionMaxYLinear = null;
-
-    currentSolutionMinYNonLinear = null;
-    currentSolutionMaxYNonLinear = null;
-
-    if (solutionsPdpDataLinear && solutionsPdpDataLinear.length > 0) {
-        currentSolutionMinYLinear = Math.round(Math.min.apply(null, unravel(solutionsPdpDataLinear, "feature_outcomes")) - 0.5);
-        currentSolutionMaxYLinear = Math.round(Math.max.apply(null, unravel(solutionsPdpDataLinear, "feature_outcomes")) + 0.5);
-    }
-    if (solutionsPdpDataNonLinear && solutionsPdpDataNonLinear.length > 0) {
-        currentSolutionMinYNonLinear = Math.round(Math.min.apply(null, unravel(solutionsPdpDataNonLinear, "feature_outcomes")));
-        currentSolutionMaxYNonLinear = Math.round(Math.max.apply(null, unravel(solutionsPdpDataNonLinear, "feature_outcomes")));
-    }
-    currentSolutionMinY = Math.round(Math.min.apply(null, [currentSolutionMinYLinear, currentSolutionMinYNonLinear].filter(function (n) {
-        return !isNaN(n);
-    })));
-    currentSolutionMaxY = Math.round(Math.max.apply(null, [currentSolutionMaxYLinear, currentSolutionMaxYNonLinear].filter(function (n) {
-        return !isNaN(n);
-    })));
 
     // For each feature generate the plot
 
 
 
-        console.log("text");
-        console.log(currentFeaturePdpData[0]);
+        //console.log("text");
+        //console.log(currentFeaturePdpData[0]);
         let featureLabel = currentFeaturePdpData[0]["feature"];
-        console.log(featureLabel);
+        //console.log(featureLabel);
 
         valueLabel = currentFeaturePdpData[0]["feature"];
-        console.log(valueLabel);
+        //console.log(valueLabel);
         ft_to_val[featureLabel]=valueLabel;
         val_to_ft[valueLabel]=featureLabel;
         var outcomeLabel = "Partial Price";
@@ -101,9 +75,9 @@ function plotLines(solutionPdpData, shareY, grids, labels, featureOrder, ignoreZ
 
         if (false && shareY === "Linear") {
             plotLineGraph(values, outcomes, valueLabel, outcomeLabel, grids, true, currentSolutionMinYLinear, currentSolutionMaxYLinear);
-        } else if (shareY == "NonLinear") {
+        } else if (false && shareY == "NonLinear") {
             plotLineGraph(values, outcomes, valueLabel, outcomeLabel, grids, true, currentSolutionMinYNonLinear, currentSolutionMaxYNonLinear);
-        } else if (shareY === "All") {
+        } else if (true || shareY === "All") {
             plotLineGraph(values, outcomes, valueLabel, outcomeLabel, grids, true, currentSolutionMinY, currentSolutionMaxY);
         } else {
             //console.log("Length outcomes old",outcomesOld.length)
@@ -117,11 +91,11 @@ function plotLines(solutionPdpData, shareY, grids, labels, featureOrder, ignoreZ
 }
 
 
-function plotLineGraph(values, outcomes, currentFeatureTextData, valueLabel,outcomeLabel, grids, shareY, minY, maxY) {
+function plotLineGraph(values, outcomes, valueLabel,outcomeLabel, grids, shareY, minY, maxY) {
 
 
     //Create div in container
-    console.log(currentFeatureTextData);
+    //console.log(currentFeatureTextData);
     container = document.getElementById("linegraphs-container");
     lineGraphDiv = document.createElement("div");
     lineGraph = document.createElement("canvas");
@@ -185,45 +159,8 @@ function logc(){
 }
 
 function getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY, grids) {
-
-    var options = {};
-    //console.log(grids);
-
-    //charts[valueLabel][0]=this.getDatasetMeta(0);
-    if (grids === "criticalGrid") {
-        options = {
-            responsive: false,
-            scales: {
-                xAxes: [{
-                    scaleLabel: {
-                        display: true,
-                        labelString: valueLabel,
-                    },
-                    ticks: {
-                        callback: xTickFormatterCritical,
-                        autoSkip: false,
-                    }
-                }],
-                yAxes: [{
-                    scaleLabel: {
-                        display: true,
-                        labelString: outcomeLabel,
-                    },
-                    ticks: {
-                        min: minY,
-                        max: maxY,
-                        callback: yTickFormatter,
-                        autoSkip: true,
-                        // minRotation: 30
-                    },
-                    afterBuildTicks: filterYTicks
-                }]
-            },
-            legend: {
-                display: false
-            },
-        };
-    } else {
+        console.log(minY,maxY);
+        var options = {};
         options = {
             responsive: false,
             animation: false,
@@ -236,13 +173,17 @@ function getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY, g
                         display: true,
                         labelString: valueLabel,
                         fontColor: "#333436",
-                        fontSize: 16,
+                        fontSize: 12,
                     },
                     ticks: {
-                        callback: xTickFormatterQuantile,
-                        autoSkip: false,
-                        maxRotation: 0,
-                        fontColor: "#424242",
+                        precision: 0,
+                        callback: function(label, index, labels) {
+                                return Math.round(label);
+                        },
+                        //callback: xTickFormatterQuantile,
+                        //autoSkip: false,
+                        //maxRotation: 0,
+                        //fontColor: "#424242",
                         // fontColor:"#fff"
                     }
                 }],
@@ -253,17 +194,10 @@ function getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY, g
                         display: true,
                         labelString: outcomeLabel,
                     },
-                    ticks: {
-                        min: minY,
-                        max: maxY,
-                        callback: yTickFormatter,
-                        autoSkip: true,
-                        minRotation: 30,
-                        maxTicksLimit: 6,
-                        precision: 0,
-                        fontColor: "#424242",
-                        // fontColor:"#fff"
-                    },
+                    ticks:{
+                      min:minY,
+                      max:maxY,
+                    }
                     // afterBuildTicks: filterYTicksQuantile
                 }]
             },
@@ -272,7 +206,6 @@ function getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY, g
             },
         };
 
-    }
     //console.log("options",options);
 
     return options;
@@ -299,18 +232,14 @@ function filterXTicks(axis, ticks) {
 
 function xTickFormatterCritical(value, index, values) {
 
-    if (currentFeaturePdpData[index]["xlabelCritical"] == 1) {
         return Math.round(value);
 
-    }
 }
 
 function xTickFormatterQuantile(value, index, values) {
 
-    if (currentFeaturePdpData[index]["xlabelQuantile"] == 1) {
-        return Math.round(value, 2);
+        return Math.round(value);
         // return value;
-    }
 }
 
 function yTickFormatterQuantile(value, index, values) {

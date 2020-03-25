@@ -83,7 +83,7 @@ FilmstripView.prototype.createDOM = function () {
   this.thumb.className = 'thumb';
 
   this.elt.appendChild(this.track);
-  this.elt.appendChild(this.thumb);
+  //this.elt.appendChild(this.thumb);
 };
 
 FilmstripView.prototype.redraw = function () {
