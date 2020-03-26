@@ -56,7 +56,7 @@ function play_cont(){
 
 function onReadyData() {
 
-    if (remainingDataFiles == 0) {
+    if (remainingDataFiles === 0) {
         document.getElementById("dashboard").style.display = "block";
         document.getElementById("preload").style.display = "none";
         container = document.getElementById("scrubber-container");
@@ -187,6 +187,15 @@ function controlInputsChangeHandler() {
     plotCondition(iv1, iv2, iv3, shareY, grids, labels, featureOrder);
 }
 
+function setbackground(idx,feature){
+    for(let i=0;i<iv2;i++){
+        let container=document.getElementById("filmstrip_"+feature+"_"+i);
+        container.style.background="#FFF";
+    }
+    let container=document.getElementById("filmstrip_"+feature+"_"+idx);
+    container.style.background="#DDD";
+}
+
 
 function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
     var ignoreZeros = true;
@@ -206,6 +215,9 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
     names[1]="Stud-Teach Ratio";
     names[2]="Air Pollution";
     names[3]="Dist. CBD";
+
+
+
     for(var i=0;i<4;i++) {
         if(names[i]==iv3) {
             var solutionPdpData = pdpData.filter(function (d) {
@@ -247,13 +259,10 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
         solutionPdpData = pdpData.filter(function (d) {
             return (true || d["method"] == iv1) && (d["feature"] == iv3)
         });
-
-
         plotFilmLines(solutionPdpData, ind, iv2, filmstrip.track, currentSolutionMinY,currentSolutionMaxY, shareY, grids, labels, featureOrder, ignoreZeros);
     }
-    //var varid = "filmstrip_" + iv3 +"_"+ind;
-    //var elmnt = document.getElementById(varid);
-    //elmnt.scrollIntoView();
+
+    setbackground(ind,iv3);
 
 }
 
