@@ -5,7 +5,7 @@ var remainingDataFiles = 1;
 d3.csv("data/enumerated_p_cogam.csv", onLoadPdpData);
 var iv1;
 var iv2;
-var iv3;
+var iv3="%Pre-1940 Units";
 var iv4;
 var iv5;
 var iv6;
@@ -15,6 +15,7 @@ var scrubber;
 var prev_ind=0;
 var draw_track = true;
 var isplay=false;
+var nametoind={};
 
 function onLoadPdpData(data) {
     pdpData = data;
@@ -57,6 +58,10 @@ function play_cont(){
 function onReadyData() {
 
     if (remainingDataFiles === 0) {
+        nametoind["%Pre-1940 Units"]=0;
+        nametoind["Stud-Teach Ratio"]=1;
+        nametoind["Air Pollution"]=2;
+        nametoind["Dist. CBD"]=3;
         document.getElementById("dashboard").style.display = "block";
         document.getElementById("preload").style.display = "none";
         container = document.getElementById("scrubber-container");
@@ -187,6 +192,13 @@ function controlInputsChangeHandler() {
     plotCondition(iv1, iv2, iv3, shareY, grids, labels, featureOrder);
 }
 
+function setfeature(fname) {
+    iv3=fname;
+    var iv3Dropdown = document.getElementById("iv3");
+    iv3Dropdown.selectedIndex=nametoind[fname];
+    controlInputsChangeHandler();
+}
+
 function setbackground(idx,feature){
     for(let i=0;i<iv2;i++){
         let container=document.getElementById("filmstrip_"+feature+"_"+i);
@@ -220,7 +232,7 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
 
     for(var i=0;i<4;i++) {
         if(names[i]==iv3) {
-            var solutionPdpData = pdpData.filter(function (d) {
+            let solutionPdpData = pdpData.filter(function (d) {
                 return (true || d["method"] == iv1) && (d["feature"] == iv3)
             });
             let currentSolutionMaxY = Math.round(Math.max.apply(null, unravel(solutionPdpData, "Partial Price")));
@@ -235,14 +247,14 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
             //console.log(solutionPdpData);
             plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY, shareY, grids, labels, featureOrder, ignoreZeros);
         }
-        else{/*
-            var solutionPdpData = pdpData.filter(function (d) {
+        else{
+            let solutionPdpData = pdpData.filter(function (d) {
                 return (true || d["method"] == iv1) && (d["feature"] == names[i])
             });
             let currentSolutionMaxY = Math.round(Math.max.apply(null, unravel(solutionPdpData, "Partial Price")));
             let currentSolutionMinY = Math.round(Math.min.apply(null, unravel(solutionPdpData, "Partial Price")));
             solutionPdpData = pdpData.filter(function (d) {
-                return (true || d["method"] == iv1) && (parseInt(d["100*p"]) == 100) && (d["feature"] == iv3)
+                return (true || d["method"] == iv1) && (parseInt(d["100*p"]) == 100) && (d["feature"] == names[i])
             });
             let share = "Local";
             if (shareY == "All") {
@@ -250,7 +262,7 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
             }
             //console.log(solutionPdpData);
             plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY, shareY, grids, labels, featureOrder, ignoreZeros);
-        */
+
         }
     }
 
