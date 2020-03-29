@@ -37,18 +37,21 @@ function play_helper(){
     }
 }
 
-function pause(){
-    isplay=false;
-}
-
 function play(){
-    isplay=true;
+    let img = document.getElementById("button_img");
+    isplay=!isplay;
+    if(!isplay){
+        img.src="play.png";
+    }
+    else{
+        img.src="pause.jpg";
+    }
     play_cont();
 }
 function play_cont(){
     if(isplay && scrubVal<1) {
         console.log(scrubVal);
-        scrubVal+=0.01;
+        scrubVal+=0.04;
         play_helper();
         setTimeout(() => { play_cont() }, 50);
     }
