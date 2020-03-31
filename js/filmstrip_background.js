@@ -19,7 +19,7 @@ var numSol;
 
 
 
-function plotFilmLines(solutionPdpData, simp_ind, numSol, container, currentSolutionMinY,currentSolutionMaxY,shareY, grids, labels, featureOrder, ignoreZeros) {
+function plotFilmLines(solutionPdpData, simp_ind, numSol, container, currentSolutionMinY,currentSolutionMaxY,shareY, ignoreZeros) {
 
     //console.log("featureOrder",featureOrder);
 
@@ -81,11 +81,11 @@ function plotFilmLines(solutionPdpData, simp_ind, numSol, container, currentSolu
         // outcomes =outcomes.slice(0,parseInt(outcomes.length/4));
 
         if (false && shareY === "Linear") {
-            plotFilmLineGraph(values, outcomes, i,count, simp_ind,container,valueLabel, outcomeLabel, grids, true, currentSolutionMinYLinear, currentSolutionMaxYLinear);
+            plotFilmLineGraph(values, outcomes, i,count, simp_ind,container,valueLabel, outcomeLabel, true, currentSolutionMinYLinear, currentSolutionMaxYLinear);
         } else if (false && shareY == "NonLinear") {
-            plotFilmLineGraph(values, outcomes, i,count, simp_ind,container, valueLabel, outcomeLabel, grids, true, currentSolutionMinYNonLinear, currentSolutionMaxYNonLinear);
+            plotFilmLineGraph(values, outcomes, i,count, simp_ind,container, valueLabel, outcomeLabel, true, currentSolutionMinYNonLinear, currentSolutionMaxYNonLinear);
         } else if (true||shareY === "All") {
-            plotFilmLineGraph(values, outcomes, i,count, simp_ind,container, valueLabel, outcomeLabel, grids, true, currentSolutionMinY, currentSolutionMaxY);
+            plotFilmLineGraph(values, outcomes, i,count, simp_ind,container, valueLabel, outcomeLabel, true, currentSolutionMinY, currentSolutionMaxY);
         } else {
             //console.log("Length outcomes old",outcomesOld.length)
             var minY = Math.round(Math.min.apply(null, outcomesOld) - 0.5);
@@ -99,7 +99,7 @@ function plotFilmLines(solutionPdpData, simp_ind, numSol, container, currentSolu
 }
 
 
-function plotFilmLineGraph(values, outcomes, simplify_index,ind,simp_ind,container, valueLabel,outcomeLabel, grids, shareY, minY, maxY) {
+function plotFilmLineGraph(values, outcomes, simplify_index,ind,simp_ind,container, valueLabel,outcomeLabel, shareY, minY, maxY) {
 
     //Create div in container
     //console.log(currentFeatureTextData);
@@ -143,7 +143,7 @@ function plotFilmLineGraph(values, outcomes, simplify_index,ind,simp_ind,contain
         datasets: datasets
     };
 
-    var options = getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY, grids);
+    var options = getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY);
     var ctx = document.getElementById("filmstrip_" + valueLabel+"_"+simplify_index);
     var lineChart = new Chart(ctx, {
         type: 'line',

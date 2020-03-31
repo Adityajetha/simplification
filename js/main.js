@@ -1,14 +1,9 @@
-//1. Fetch data
 var pdpData;
-var textData;
 var remainingDataFiles = 1;
 d3.csv("data/enumerated_p_cogam.csv", onLoadPdpData);
 var iv1;
 var iv2;
 var iv3="%Pre-1940 Units";
-var iv4;
-var iv5;
-var iv6;
 var scrubVal = 0;
 var filmstrip;
 var scrubber;
@@ -24,10 +19,8 @@ function onLoadPdpData(data) {
 }
 
 function play_helper(){
-
     filmstrip.value(scrubVal);
     filmstrip.track.scrollLeft = 150 * iv2 * scrubVal;
-    //console.log(scrubVal); // the value at time of invocation
     var ind = getindex(scrubVal, iv2);
     if (prev_ind != ind) {
         prev_ind = ind;
@@ -48,6 +41,7 @@ function play(){
     }
     play_cont();
 }
+
 function play_cont(){
     if(isplay && scrubVal<1) {
         console.log(scrubVal);
@@ -66,17 +60,14 @@ function onReadyData() {
         nametoind["Air Pollution"]=2;
         nametoind["Dist. CBD"]=3;
         document.getElementById("dashboard").style.display = "block";
-        document.getElementById("preload").style.display = "none";
         container = document.getElementById("scrubber-container");
         scrubber = new ScrubberView();
-        //console.log(container);
         container.appendChild(scrubber.elt);
 
-// onScrubStart is called whenever a user starts scrubbing
+        // onScrubStart is called whenever a user starts scrubbing
         scrubber.onScrubStart = function (value) {
             scrubVal=value;
             filmstrip.value(scrubVal);
-            //console.log(value); // the value at the time of scrub start
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -84,7 +75,7 @@ function onReadyData() {
                 controlInputsChangeHandler();
                 draw_track=true;
             }
-        }
+        };
 
 
 // onValueChanged is called whenever the scrubber is moved.
@@ -92,7 +83,6 @@ function onReadyData() {
             scrubVal=value;
             filmstrip.value(scrubVal);
             filmstrip.track.scrollLeft = 150*iv2*scrubVal;
-            //console.log(scrubVal); // the value at time of invocation
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -100,13 +90,11 @@ function onReadyData() {
                 controlInputsChangeHandler();
                 draw_track=true;
             }
-        }
+        };
 
-// onScrubEnd is called whenever a user stops scrubbing
         scrubber.onScrubEnd = function (value) {
             scrubVal=value;
             filmstrip.value(scrubVal);
-            //console.log(scrubVal); // the value at the time of scrub end
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -114,17 +102,15 @@ function onReadyData() {
                 controlInputsChangeHandler();
                 draw_track=true;
             }
-        }
+        };
 
         container = document.getElementById("filmstrip-container");
         filmstrip = new FilmstripView();
         container.appendChild(filmstrip.elt);
 
-// onScrubStart is called whenever a user starts scrubbing
         filmstrip.onScrubStart = function (value) {
             scrubVal=value;
             scrubber.value(scrubVal);
-            //console.log(value); // the value at the time of scrub start
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -132,14 +118,12 @@ function onReadyData() {
                 controlInputsChangeHandler();
                 draw_track=true;
             }
-        }
+        };
 
 
-// onValueChanged is called whenever the scrubber is moved.
         filmstrip.onValueChanged = function (value) {
             scrubVal=value;
             scrubber.value(scrubVal);
-            //console.log(scrubVal); // the value at time of invocation
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -147,13 +131,11 @@ function onReadyData() {
                 controlInputsChangeHandler();
                 draw_track=true;
             }
-        }
+        };
 
-// onScrubEnd is called whenever a user stops scrubbing
         filmstrip.onScrubEnd = function (value) {
             scrubVal=value;
             scrubber.value(scrubVal);
-            //console.log(scrubVal); // the value at the time of scrub end
             var ind = getindex(scrubVal,iv2);
             if(prev_ind!=ind){
                 prev_ind=ind;
@@ -161,8 +143,7 @@ function onReadyData() {
                 controlInputsChangeHandler();
                 draw_track=true;
             }
-        }
-
+        };
 
         controlInputsChangeHandler();
     }
@@ -189,10 +170,7 @@ function controlInputsChangeHandler() {
     var shareY = [].filter.call(document.getElementsByName("shareYRadios"), function (n) {
         return n.checked
     })[0].value;
-    let grids="defaultGrid";
-    let labels="defaultLabels";
-    let featureOrder="alphabetical";
-    plotCondition(iv1, iv2, iv3, shareY, grids, labels, featureOrder);
+    plotCondition(iv1, iv2, iv3, shareY);
 }
 
 function setfeature(fname) {
@@ -212,16 +190,12 @@ function setbackground(idx,feature){
 }
 
 
-function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
+function plotCondition(iv1, iv2 ,iv3, shareY) {
     var ignoreZeros = true;
     featureOrder = "default";
     var ind = getindex(scrubVal,iv2);
     prev_ind=ind;
-    //console.log(iv1,ind,iv3);
-    //console.log(pdpData);
-    //console.log('ind is ' + ind);
     container = document.getElementById("linegraphs-container");
-
     while (container.firstChild) {
         container.removeChild(container.firstChild);
     }
@@ -230,8 +204,6 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
     names[1]="Stud-Teach Ratio";
     names[2]="Air Pollution";
     names[3]="Dist. CBD";
-
-
 
     for(var i=0;i<4;i++) {
         if(names[i]==iv3) {
@@ -248,7 +220,7 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
                 share = "Global";
             }
             //console.log(solutionPdpData);
-            plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY, shareY, grids, labels, featureOrder, ignoreZeros);
+            plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY, shareY, ignoreZeros);
         }
         else{
             let solutionPdpData = pdpData.filter(function (d) {
@@ -264,7 +236,7 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
                 share = "Global";
             }
             //console.log(solutionPdpData);
-            plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY, shareY, grids, labels, featureOrder, ignoreZeros);
+            plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY, shareY, ignoreZeros);
 
         }
     }
@@ -274,7 +246,7 @@ function plotCondition(iv1, iv2 ,iv3, shareY, grids, labels, featureOrder) {
         solutionPdpData = pdpData.filter(function (d) {
             return (true || d["method"] == iv1) && (d["feature"] == iv3)
         });
-        plotFilmLines(solutionPdpData, ind, iv2, filmstrip.track, currentSolutionMinY,currentSolutionMaxY, shareY, grids, labels, featureOrder, ignoreZeros);
+        plotFilmLines(solutionPdpData, ind, iv2, filmstrip.track, currentSolutionMinY,currentSolutionMaxY, shareY, ignoreZeros);
     }
 
     setbackground(ind,iv3);

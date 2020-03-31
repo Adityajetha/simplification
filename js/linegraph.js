@@ -8,43 +8,35 @@ var ft_to_val={};
 var val_to_ft={};
 var ft_chunk_indices={};
 var charts = {};
-var scrubVal;
-var num_sim;
 
 
-function plotLines(solutionPdpData, currentSolutionMinY,currentSolutionMaxY, shareY, grids, labels, featureOrder, ignoreZeros) {
+function plotLines(solutionPdpData, currentSolutionMinY,currentSolutionMaxY, shareY, ignoreZeros) {
     container = document.getElementById("linegraphs-container");
     currentFeaturePdpData=solutionPdpData;
+    let featureLabel = currentFeaturePdpData[0]["feature"];
+    valueLabel = currentFeaturePdpData[0]["feature"];
+    ft_to_val[featureLabel]=valueLabel;
+    val_to_ft[valueLabel]=featureLabel;
+    var outcomeLabel = "Partial Price";
+    var values = [];
+    var outcomes = [];
+    for (var j = 0; j < currentFeaturePdpData.length; j++) {
+        values.push(currentFeaturePdpData[j]["value"]);
+        outcomes.push(currentFeaturePdpData[j]["Partial Price"]);
+    }
 
-        let featureLabel = currentFeaturePdpData[0]["feature"];
-        valueLabel = currentFeaturePdpData[0]["feature"];
-        ft_to_val[featureLabel]=valueLabel;
-        val_to_ft[valueLabel]=featureLabel;
-        var outcomeLabel = "Partial Price";
-        var values = [];
-        var outcomes = [];
-
-        for (var j = 0; j < currentFeaturePdpData.length; j++) {
-            values.push(currentFeaturePdpData[j]["value"]);
-            outcomes.push(currentFeaturePdpData[j]["Partial Price"]);
-        }
-
-
-        // sample half
-        var outcomesOld = outcomes;
-        // outcomes =outcomes.slice(0,parseInt(outcomes.length/4));
-        if (true || shareY === "All") {
-            plotLineGraph(values, outcomes, valueLabel, outcomeLabel, grids, true, currentSolutionMinY, currentSolutionMaxY);
-        } else {
-            //console.log("Length outcomes old",outcomesOld.length)
-            var minY = Math.round(Math.min.apply(null, outcomesOld) - 0.5);
-            var maxY = Math.round(Math.max.apply(null, outcomesOld) + 0.5);
-            plotLineGraph(values, outcomes, currentFeatureTextData, valueLabel, outcomeLabel, grids, true, minY, maxY);
-        }
+    var outcomesOld = outcomes;
+    if (true || shareY === "All") {
+        plotLineGraph(values, outcomes, valueLabel, outcomeLabel, true, currentSolutionMinY, currentSolutionMaxY);
+    } else {
+        var minY = Math.round(Math.min.apply(null, outcomesOld) - 0.5);
+        var maxY = Math.round(Math.max.apply(null, outcomesOld) + 0.5);
+        plotLineGraph(values, outcomes, currentFeatureTextData, valueLabel, outcomeLabel, true, minY, maxY);
+    }
 }
 
 
-function plotLineGraph(values, outcomes, valueLabel,outcomeLabel, grids, shareY, minY, maxY) {
+function plotLineGraph(values, outcomes, valueLabel,outcomeLabel, shareY, minY, maxY) {
     container = document.getElementById("linegraphs-container");
     lineGraphDiv = document.createElement("div");
     lineGraph = document.createElement("canvas");
@@ -71,7 +63,7 @@ function plotLineGraph(values, outcomes, valueLabel,outcomeLabel, grids, shareY,
         datasets: datasets
     };
 
-    var options = getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY, grids);
+    var options = getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY);
     var ctx = document.getElementById("linegraph_" + valueLabel);
     var lineChart = new Chart(ctx, {
         type: 'line',
@@ -90,7 +82,7 @@ function unravel(listOfDicts, key) {
     return items;
 }
 
-function getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY, grids) {
+function getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY) {
         console.log(minY,maxY);
         var options = {};
         options = {
