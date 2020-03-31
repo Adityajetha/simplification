@@ -17,7 +17,7 @@ function onLoadPdpData(data) {
     remainingDataFiles = remainingDataFiles - 1;
     onReadyData();
 }
-
+//Changes filmstrip and scrubber value
 function play_helper(){
     filmstrip.value(scrubVal);
     filmstrip.track.scrollLeft = 150 * iv2 * scrubVal;
@@ -29,7 +29,7 @@ function play_helper(){
         draw_track = true;
     }
 }
-
+//Function called when play/pause button pressed
 function play(){
     let img = document.getElementById("button_img");
     isplay=!isplay;
@@ -136,7 +136,7 @@ function onReadyData() {
         controlInputsChangeHandler();
     }
 }
-
+//input, scrubber location [0,1] and number of simplifications
 function getindex(sc,num){
     if(parseInt(sc*num)==num)
         return num-1;
@@ -157,14 +157,14 @@ function controlInputsChangeHandler() {
 
     plotCondition(iv1, iv2, iv3);
 }
-
+//Chnage the dropdown menu
 function setfeature(fname) {
     iv3=fname;
     var iv3Dropdown = document.getElementById("iv3");
     iv3Dropdown.selectedIndex=nametoind[fname];
     controlInputsChangeHandler();
 }
-
+//change background of the selected graph in the filmstrip
 function setbackground(idx,feature){
     for(let i=0;i<iv2;i++){
         let container=document.getElementById("filmstrip_"+feature+"_"+i);
@@ -175,7 +175,7 @@ function setbackground(idx,feature){
 }
 
 
-function plotCondition(iv1, iv2 ,iv3, shareY) {
+function plotCondition(iv1, iv2 ,iv3) {
     featureOrder = "default";
     var ind = getindex(scrubVal,iv2);
     prev_ind=ind;
@@ -191,6 +191,7 @@ function plotCondition(iv1, iv2 ,iv3, shareY) {
 
     for(var i=0;i<4;i++) {
         if(names[i]==iv3) {
+            //plot the selected feature
             let solutionPdpData = pdpData.filter(function (d) {
                 return (true || d["method"] == iv1) && (d["feature"] == iv3)
             });
@@ -199,13 +200,10 @@ function plotCondition(iv1, iv2 ,iv3, shareY) {
             solutionPdpData = pdpData.filter(function (d) {
                 return (true || d["method"] == iv1) && (parseInt(d["100*p"]) == ind) && (d["feature"] == iv3)
             });
-            let share = "Local";
-            if (shareY == "All") {
-                share = "Global";
-            }
             plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY);
         }
         else{
+            //plot other features
             let solutionPdpData = pdpData.filter(function (d) {
                 return (true || d["method"] == iv1) && (d["feature"] == names[i])
             });
@@ -214,10 +212,6 @@ function plotCondition(iv1, iv2 ,iv3, shareY) {
             solutionPdpData = pdpData.filter(function (d) {
                 return (true || d["method"] == iv1) && (parseInt(d["100*p"]) == 100) && (d["feature"] == names[i])
             });
-            let share = "Local";
-            if (shareY == "All") {
-                share = "Global";
-            }
             plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY);
 
         }
@@ -225,13 +219,13 @@ function plotCondition(iv1, iv2 ,iv3, shareY) {
 
 
     if(draw_track) {
+        //draw film strip
         solutionPdpData = pdpData.filter(function (d) {
             return (true || d["method"] == iv1) && (d["feature"] == iv3)
         });
         plotFilmLines(solutionPdpData, ind, iv2, filmstrip.track, currentSolutionMinY,currentSolutionMaxY);
     }
     setbackground(ind,iv3);
-
 }
 
 
