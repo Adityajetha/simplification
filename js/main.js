@@ -44,7 +44,6 @@ function play(){
 
 function play_cont(){
     if(isplay && scrubVal<1) {
-        console.log(scrubVal);
         scrubVal+=0.04;
         play_helper();
         setTimeout(() => { play_cont() }, 50);
@@ -63,8 +62,6 @@ function onReadyData() {
         container = document.getElementById("scrubber-container");
         scrubber = new ScrubberView();
         container.appendChild(scrubber.elt);
-
-        // onScrubStart is called whenever a user starts scrubbing
         scrubber.onScrubStart = function (value) {
             scrubVal=value;
             filmstrip.value(scrubVal);
@@ -76,8 +73,6 @@ function onReadyData() {
                 draw_track=true;
             }
         };
-
-
 // onValueChanged is called whenever the scrubber is moved.
         scrubber.onValueChanged = function (value) {
             scrubVal=value;
@@ -91,7 +86,6 @@ function onReadyData() {
                 draw_track=true;
             }
         };
-
         scrubber.onScrubEnd = function (value) {
             scrubVal=value;
             filmstrip.value(scrubVal);
@@ -103,11 +97,9 @@ function onReadyData() {
                 draw_track=true;
             }
         };
-
         container = document.getElementById("filmstrip-container");
         filmstrip = new FilmstripView();
         container.appendChild(filmstrip.elt);
-
         filmstrip.onScrubStart = function (value) {
             scrubVal=value;
             scrubber.value(scrubVal);
@@ -119,8 +111,6 @@ function onReadyData() {
                 draw_track=true;
             }
         };
-
-
         filmstrip.onValueChanged = function (value) {
             scrubVal=value;
             scrubber.value(scrubVal);
@@ -132,7 +122,6 @@ function onReadyData() {
                 draw_track=true;
             }
         };
-
         filmstrip.onScrubEnd = function (value) {
             scrubVal=value;
             scrubber.value(scrubVal);
@@ -144,7 +133,6 @@ function onReadyData() {
                 draw_track=true;
             }
         };
-
         controlInputsChangeHandler();
     }
 }
@@ -167,10 +155,7 @@ function controlInputsChangeHandler() {
     var iv3Dropdown = document.getElementById("iv3");
     iv3 = iv3Dropdown.options[iv3Dropdown.selectedIndex].value;
 
-    var shareY = [].filter.call(document.getElementsByName("shareYRadios"), function (n) {
-        return n.checked
-    })[0].value;
-    plotCondition(iv1, iv2, iv3, shareY);
+    plotCondition(iv1, iv2, iv3);
 }
 
 function setfeature(fname) {
@@ -191,7 +176,6 @@ function setbackground(idx,feature){
 
 
 function plotCondition(iv1, iv2 ,iv3, shareY) {
-    var ignoreZeros = true;
     featureOrder = "default";
     var ind = getindex(scrubVal,iv2);
     prev_ind=ind;
@@ -219,8 +203,7 @@ function plotCondition(iv1, iv2 ,iv3, shareY) {
             if (shareY == "All") {
                 share = "Global";
             }
-            //console.log(solutionPdpData);
-            plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY, shareY, ignoreZeros);
+            plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY);
         }
         else{
             let solutionPdpData = pdpData.filter(function (d) {
@@ -235,8 +218,7 @@ function plotCondition(iv1, iv2 ,iv3, shareY) {
             if (shareY == "All") {
                 share = "Global";
             }
-            //console.log(solutionPdpData);
-            plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY, shareY, ignoreZeros);
+            plotLines(solutionPdpData, currentSolutionMinY, currentSolutionMaxY);
 
         }
     }
@@ -246,9 +228,8 @@ function plotCondition(iv1, iv2 ,iv3, shareY) {
         solutionPdpData = pdpData.filter(function (d) {
             return (true || d["method"] == iv1) && (d["feature"] == iv3)
         });
-        plotFilmLines(solutionPdpData, ind, iv2, filmstrip.track, currentSolutionMinY,currentSolutionMaxY, shareY, ignoreZeros);
+        plotFilmLines(solutionPdpData, ind, iv2, filmstrip.track, currentSolutionMinY,currentSolutionMaxY);
     }
-
     setbackground(ind,iv3);
 
 }

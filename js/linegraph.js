@@ -10,7 +10,7 @@ var ft_chunk_indices={};
 var charts = {};
 
 
-function plotLines(solutionPdpData, currentSolutionMinY,currentSolutionMaxY, shareY, ignoreZeros) {
+function plotLines(solutionPdpData, currentSolutionMinY,currentSolutionMaxY) {
     container = document.getElementById("linegraphs-container");
     currentFeaturePdpData=solutionPdpData;
     let featureLabel = currentFeaturePdpData[0]["feature"];
@@ -24,19 +24,11 @@ function plotLines(solutionPdpData, currentSolutionMinY,currentSolutionMaxY, sha
         values.push(currentFeaturePdpData[j]["value"]);
         outcomes.push(currentFeaturePdpData[j]["Partial Price"]);
     }
-
-    var outcomesOld = outcomes;
-    if (true || shareY === "All") {
-        plotLineGraph(values, outcomes, valueLabel, outcomeLabel, true, currentSolutionMinY, currentSolutionMaxY);
-    } else {
-        var minY = Math.round(Math.min.apply(null, outcomesOld) - 0.5);
-        var maxY = Math.round(Math.max.apply(null, outcomesOld) + 0.5);
-        plotLineGraph(values, outcomes, currentFeatureTextData, valueLabel, outcomeLabel, true, minY, maxY);
-    }
+    plotLineGraph(values, outcomes, valueLabel, outcomeLabel, currentSolutionMinY, currentSolutionMaxY);
 }
 
 
-function plotLineGraph(values, outcomes, valueLabel,outcomeLabel, shareY, minY, maxY) {
+function plotLineGraph(values, outcomes, valueLabel,outcomeLabel, minY, maxY) {
     container = document.getElementById("linegraphs-container");
     lineGraphDiv = document.createElement("div");
     lineGraph = document.createElement("canvas");
@@ -73,7 +65,6 @@ function plotLineGraph(values, outcomes, valueLabel,outcomeLabel, shareY, minY, 
     charts[valueLabel]=lineChart;
 }
 
-//Helper to turn list of dicts to array
 function unravel(listOfDicts, key) {
     items = [];
     for (var i = 0; i < listOfDicts.length; i++) {
@@ -83,7 +74,6 @@ function unravel(listOfDicts, key) {
 }
 
 function getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY) {
-        console.log(minY,maxY);
         var options = {};
         options = {
             responsive: false,
@@ -91,8 +81,6 @@ function getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY) {
             events: ['mousemove','mouseout','click'],
             scales: {
                 xAxes: [{
-                    // gridLines: {
-                    //     color: "rgba(0, 0, 0, 0)",},s
                     scaleLabel: {
                         display: true,
                         labelString: valueLabel,
@@ -104,16 +92,9 @@ function getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY) {
                         callback: function(label, index, labels) {
                                 return (Math.round(label*100))/100;
                         },
-                        //callback: xTickFormatterQuantile,
-                        //autoSkip: false,
-                        //maxRotation: 0,
-                        //fontColor: "#424242",
-                        // fontColor:"#fff"
                     }
                 }],
                 yAxes: [{
-                    // gridLines: {
-                    //     color: "rgba(0, 0, 0, 0)",},
                     scaleLabel: {
                         display: true,
                         labelString: outcomeLabel,
@@ -122,112 +103,12 @@ function getLineGraphOptions(valueLabel, outcomeLabel, minX, maxX, minY, maxY) {
                       min:minY,
                       max:maxY,
                     }
-                    // afterBuildTicks: filterYTicksQuantile
                 }]
             },
             legend: {
                 display: false,
             },
         };
-
-    //console.log("options",options);
-
     return options;
 }
 
-function filterXTicks(axis, ticks) {
-
-    //console.log(ticks);
-
-    xMin = parseInt(Math.min.apply(null, ticks));
-    xMax = parseInt(Math.max.apply(null, ticks));
-    newTicks = [xMin, xMax];
-    // tick = xMin;
-    // while(tick<=xMax){
-    //   newTicks.push(tick);
-    //   tick = tick + 1;
-    // }
-    //console.log("In filter x ticks",newTicks);
-
-    return ticks;
-
-}
-
-
-function xTickFormatterCritical(value, index, values) {
-
-        return Math.round(value);
-
-}
-
-function xTickFormatterQuantile(value, index, values) {
-
-        return Math.round(value);
-        // return value;
-}
-
-function yTickFormatterQuantile(value, index, values) {
-    if (currentFeaturePdpData[index]["ylabelQuantile"] == 1) {
-        return value;
-    }
-}
-
-function yTickFormatter(value, index, values) {
-    // return Math.round((value / 1000)).toString() + " K"
-
-    // if(value!==0) {
-    //console.log(iv2 + "," + iv3 + "," + valueLabel + "," + value.toString());
-    return value.toString() + " K";
-    // }
-
-}
-
-function avoidTickOverlaps(newTicks) {
-    minTick = Math.min.apply(null, newTicks);
-    maxTick = Math.max.apply(null, newTicks);
-    minDistance = (maxTick - minTick) * 0.01;
-
-    var ticks = [];
-    // always show min and max labels
-    // assume sorted order
-    ticks.push(newTicks[0]);
-    for (var i = 1; i < newTicks.length; i++) {
-        prevTick = newTicks[i - 1];
-        currentTick = newTicks[i];
-        if (currentTick - prevTick >= minDistance) {
-            ticks.push(currentTick)
-        }
-    }
-
-    return ticks;
-}
-
-function filterYTicks(axis, ticks) {
-
-    newTicks = currentFeaturePdpData.filter(function (d) {
-        return d["ylabel"] == 1
-    });
-    ////console.log(newTicks);
-    newTicks = unravel(newTicks, "feature_outcomes");
-    ////console.log(ticks,newTicks);
-    // newTicks.unshift(currentSolutionMinY);
-    // newTicks.push(currentSolutionMaxY);
-    //newTicks = avoidTickOverlaps(newTicks);
-
-    return newTicks;
-}
-
-function filterYTicksQuantile(axis, ticks) {
-
-    newTicks = currentFeaturePdpData.filter(function (d) {
-        return d["ylabelQuantile"] == 1
-    });
-    ////console.log(newTicks);
-    newTicks = unravel(newTicks, "feature_outcomes");
-    ////console.log(ticks,newTicks);
-    // newTicks.unshift(currentSolutionMinY);
-    // newTicks.push(currentSolutionMaxY);
-    newTicks = avoidTickOverlaps(newTicks);
-
-    return newTicks;
-}
